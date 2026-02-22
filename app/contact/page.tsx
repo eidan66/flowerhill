@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
-import type { Locale } from "@/app/lib/i18n";
+import { getLocale } from "@/app/lib/getLocale";
 
-interface Props { params: Promise<{ locale: Locale }> }
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   return { title: dict.contact.metaTitle, description: dict.contact.metaDesc };
 }
 
-export default async function ContactPage({ params }: Props) {
-  const { locale } = await params;
+export default async function ContactPage() {
+  const locale = await getLocale();
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   const t = dict.contact;
-  const lp = (path: string) => `/${locale}${path}`;
 
   const contactMethods = [
     { icon: "📞", title: t.phone,    value: "TBD",              sub: t.phoneHours, href: "tel:+972000000000" },
@@ -23,14 +20,14 @@ export default async function ContactPage({ params }: Props) {
   ];
 
   return (
-    <div className="bg-gray-50 min-h-screen py-16">
+    <div className="bg-gray-50 min-h-screen py-8 sm:py-12 lg:py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-14">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{t.title}</h1>
+        <div className="text-center mb-8 sm:mb-14">
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">{t.title}</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">{t.subtitle}</p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 sm:gap-10">
           <div className="lg:col-span-2 space-y-4">
             {contactMethods.map((m) => (
               <a key={m.title} href={m.href} className="flex items-start gap-4 bg-white rounded-xl p-5 border border-gray-200 hover:border-green-400 hover:shadow-sm transition-all group"
@@ -51,8 +48,8 @@ export default async function ContactPage({ params }: Props) {
             </div>
           </div>
 
-          <div className="lg:col-span-3 bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">{t.formTitle}</h2>
+          <div className="lg:col-span-3 bg-white rounded-xl border border-gray-200 p-4 sm:p-6 lg:p-8 shadow-sm">
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">{t.formTitle}</h2>
             <form className="space-y-5" noValidate>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <div>

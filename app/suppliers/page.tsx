@@ -1,20 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import type { Locale } from "@/app/lib/i18n";
+import { getLocale } from "@/app/lib/getLocale";
 
-interface Props { params: Promise<{ locale: Locale }> }
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   return { title: dict.suppliers.metaTitle, description: dict.suppliers.metaDesc };
 }
 
-export default async function SuppliersPage({ params }: Props) {
-  const { locale } = await params;
+export default async function SuppliersPage() {
+  const locale = await getLocale();
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   const t = dict.suppliers;
-  const lp = (path: string) => `/${locale}${path}`;
+  const lp = (path: string) => path;
 
   const benefits = [
     { icon: "🌍", title: t.benefit1Title, desc: t.benefit1Desc },
@@ -32,16 +30,16 @@ export default async function SuppliersPage({ params }: Props) {
 
   return (
     <div className="bg-white min-h-screen">
-      <div className="bg-green-900 text-white py-20">
+      <div className="bg-green-900 text-white py-8 sm:py-12 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
-            <h1 className="text-4xl font-bold mb-6">{t.heroTitle}</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold mb-4 sm:mb-6">{t.heroTitle}</h1>
             <p className="text-xl text-green-100 leading-relaxed">{t.heroSub}</p>
           </div>
         </div>
       </div>
 
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">{t.whyTitle}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -56,7 +54,7 @@ export default async function SuppliersPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
@@ -91,7 +89,7 @@ export default async function SuppliersPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="py-20 bg-green-800 text-white">
+      <section className="py-12 sm:py-16 lg:py-20 bg-green-800 text-white">
         <div className="max-w-2xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">{t.ctaTitle}</h2>
           <p className="text-green-100 mb-8 text-lg">{t.ctaSub}</p>

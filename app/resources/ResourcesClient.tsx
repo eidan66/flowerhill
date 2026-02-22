@@ -6,12 +6,11 @@ import type { Dict } from "@/app/lib/i18n/he";
 
 interface Props {
   t: Dict["resources"];
-  locale: string;
 }
 
-export default function ResourcesClient({ t, locale }: Props) {
+export default function ResourcesClient({ t }: Props) {
   const [openIdx, setOpenIdx] = useState<number | null>(null);
-  const lp = (path: string) => `/${locale}${path}`;
+  const lp = (path: string) => path;
 
   const faqs = [
     { q: t.faq1q, a: t.faq1a },

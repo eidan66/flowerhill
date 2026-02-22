@@ -1,28 +1,26 @@
 import type { Metadata } from "next";
 import { getSession } from "@/app/lib/session";
 import { redirect } from "next/navigation";
-import type { Locale } from "@/app/lib/i18n";
+import { getLocale } from "@/app/lib/getLocale";
 import LogoutButton from "./LogoutButton";
 
-interface Props { params: Promise<{ locale: Locale }> }
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   return { title: dict.account.metaTitle };
 }
 
-export default async function AccountPage({ params }: Props) {
-  const { locale } = await params;
+export default async function AccountPage() {
+  const locale = await getLocale();
   const [session, { default: dict }] = await Promise.all([
     getSession(),
     import(`@/app/lib/i18n/${locale}`),
   ]);
 
-  if (!session) redirect(`/${locale}/login`);
+  if (!session) redirect("/login");
 
   const t = dict.account;
-  const lp = (path: string) => `/${locale}${path}`;
+  const lp = (path: string) => path;
 
   const actions = [
     { icon: "📋", title: t.catalogTitle, desc: t.catalogDesc, href: lp("/products") },
@@ -31,7 +29,7 @@ export default async function AccountPage({ params }: Props) {
   ];
 
   return (
-    <div className="bg-gray-50 min-h-screen py-12">
+    <div className="bg-gray-50 min-h-screen py-8 sm:py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="flex items-start justify-between mb-10">

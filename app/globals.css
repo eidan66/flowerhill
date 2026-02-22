@@ -24,6 +24,15 @@ body {
   text-align: right;
 }
 
+/* WhatsApp FAB: RTL places it on the right, safe area for notched devices */
+[dir="rtl"] .whatsapp-fab {
+  left: auto;
+  right: 1.5rem;
+}
+.whatsapp-fab {
+  bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+}
+
 .text-gradient {
   background: linear-gradient(to right, #166534, #16a34a);
   -webkit-background-clip: text;

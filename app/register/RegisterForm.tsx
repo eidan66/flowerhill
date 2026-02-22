@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import Link from "next/link";
 import { registerAction, type RegisterResult } from "@/app/actions/auth";
 import type { Dict } from "@/app/lib/i18n/he";
 
@@ -8,7 +9,6 @@ const initialState: RegisterResult = {};
 
 interface Props {
   t: Dict["register"];
-  locale: string;
 }
 
 function Field({ label, name, type = "text", required = false, dir, placeholder, disabled, autoComplete }: {
@@ -27,7 +27,7 @@ function Field({ label, name, type = "text", required = false, dir, placeholder,
   );
 }
 
-export default function RegisterForm({ t, locale }: Props) {
+export default function RegisterForm({ t }: Props) {
   const [state, formAction, isPending] = useActionState(registerAction, initialState);
 
   if (state.success) {
@@ -36,9 +36,9 @@ export default function RegisterForm({ t, locale }: Props) {
         <div className="text-5xl">✅</div>
         <h2 className="text-xl font-bold text-green-900">{t.successTitle}</h2>
         <p className="text-gray-600 text-sm leading-relaxed">{t.successDesc}</p>
-        <a href={`/${locale}/login`} className="inline-block mt-4 text-green-700 font-semibold hover:text-green-900 text-sm">
+        <Link href="/login" className="inline-block mt-4 text-green-700 font-semibold hover:text-green-900 text-sm">
           {t.backToLogin}
-        </a>
+        </Link>
       </div>
     );
   }

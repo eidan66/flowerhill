@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import Link from "next/link";
 import { forgotPasswordAction, type ForgotPasswordResult } from "@/app/actions/auth";
 import type { Dict } from "@/app/lib/i18n/he";
 
@@ -8,10 +9,9 @@ const initialState: ForgotPasswordResult = {};
 
 interface Props {
   t: Dict["forgotPassword"];
-  locale: string;
 }
 
-export default function ForgotForm({ t, locale }: Props) {
+export default function ForgotForm({ t }: Props) {
   const [state, formAction, isPending] = useActionState(forgotPasswordAction, initialState);
 
   if (state.success) {
@@ -20,9 +20,9 @@ export default function ForgotForm({ t, locale }: Props) {
         <div className="text-5xl">📧</div>
         <h2 className="text-lg font-bold text-green-900">{t.successTitle}</h2>
         <p className="text-gray-600 text-sm leading-relaxed">{t.successDesc}</p>
-        <a href={`/${locale}/login`} className="inline-block mt-2 text-green-700 font-semibold hover:text-green-900 text-sm">
+        <Link href="/login" className="inline-block mt-2 text-green-700 font-semibold hover:text-green-900 text-sm">
           {t.backToLoginAfter}
-        </a>
+        </Link>
       </div>
     );
   }
@@ -51,7 +51,7 @@ export default function ForgotForm({ t, locale }: Props) {
       </button>
 
       <p className="text-center text-sm text-gray-500">
-        <a href={`/${locale}/login`} className="text-green-700 hover:text-green-900">{t.backToLogin}</a>
+        <Link href="/login" className="text-green-700 hover:text-green-900">{t.backToLogin}</Link>
       </p>
     </form>
   );

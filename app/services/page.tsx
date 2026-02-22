@@ -1,31 +1,29 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import type { Locale } from "@/app/lib/i18n";
+import { getLocale } from "@/app/lib/getLocale";
 
-interface Props { params: Promise<{ locale: Locale }> }
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   return { title: dict.services.metaTitle, description: dict.services.metaDesc };
 }
 
-export default async function ServicesPage({ params }: Props) {
-  const { locale } = await params;
+export default async function ServicesPage() {
+  const locale = await getLocale();
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   const t = dict.services;
-  const lp = (path: string) => `/${locale}${path}`;
+  const lp = (path: string) => path;
 
   return (
     <div className="bg-white min-h-screen">
-      <div className="bg-green-900 text-white py-20">
+      <div className="bg-green-900 text-white py-8 sm:py-12 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold mb-4">{t.heroTitle}</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4">{t.heroTitle}</h1>
           <p className="text-xl text-green-100 max-w-2xl">{t.heroSub}</p>
         </div>
       </div>
 
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div className="bg-white rounded-2xl border border-gray-200 p-8">
@@ -69,7 +67,7 @@ export default async function ServicesPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">{t.logisticsTitle}</h2>
@@ -91,7 +89,7 @@ export default async function ServicesPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="py-16 bg-green-800 text-white text-center">
+      <section className="py-10 sm:py-14 lg:py-16 bg-green-800 text-white text-center">
         <div className="max-w-2xl mx-auto px-4">
           <h2 className="text-2xl font-bold mb-4">{t.ctaTitle}</h2>
           <p className="text-green-100 mb-8">{t.ctaSub}</p>

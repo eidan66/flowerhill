@@ -1,22 +1,20 @@
 import type { Metadata } from "next";
-import type { Locale } from "@/app/lib/i18n";
+import { getLocale } from "@/app/lib/getLocale";
 import ForgotForm from "./ForgotForm";
 
-interface Props { params: Promise<{ locale: Locale }> }
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   return { title: dict.forgotPassword.metaTitle };
 }
 
-export default async function ForgotPasswordPage({ params }: Props) {
-  const { locale } = await params;
+export default async function ForgotPasswordPage() {
+  const locale = await getLocale();
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   const t = dict.forgotPassword;
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <div className="text-center mb-8">
           <span className="text-5xl">🌸</span>
@@ -25,7 +23,7 @@ export default async function ForgotPasswordPage({ params }: Props) {
         </div>
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-6 text-center">{t.title}</h2>
-          <ForgotForm t={t} locale={locale} />
+          <ForgotForm t={t} />
         </div>
       </div>
     </div>

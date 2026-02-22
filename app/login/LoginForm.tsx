@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import Link from "next/link";
 import { loginAction, type LoginResult } from "@/app/actions/auth";
 import type { Dict } from "@/app/lib/i18n/he";
 
@@ -28,7 +29,7 @@ export default function LoginForm({ t, locale }: Props) {
       <div>
         <div className="flex justify-between items-center mb-1">
           <label htmlFor="password" className="block text-sm font-medium text-gray-700">{t.password}</label>
-          <a href={`/${locale}/login/forgot`} className="text-xs text-green-700 hover:text-green-900">{t.forgotPassword}</a>
+          <Link href="/login/forgot" className="text-xs text-green-700 hover:text-green-900">{t.forgotPassword}</Link>
         </div>
         <input type="password" id="password" name="password" required autoComplete="current-password" dir="ltr" disabled={isPending}
           className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent disabled:bg-gray-50 disabled:opacity-60 transition-colors"

@@ -9,22 +9,22 @@ interface Props {
 
 export default function Footer({ locale, t }: Props) {
   const year = new Date().getFullYear();
-  const lp = (path: string) => `/${locale}${path}`;
+  const lp = (path: string) => path;
 
   return (
     <footer className="bg-gray-900 text-gray-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
 
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">🌸</span>
-              <div>
-                <div className="text-white font-bold text-lg leading-none">גבעת הפרחים</div>
-                <div className="text-gray-400 text-xs">Flower Hill</div>
-              </div>
-            </div>
+            <Link href="/" className="inline-block mb-4">
+              <img
+                src="/logo.png"
+                alt="Flower Hill - גבעת הפרחים"
+                className="h-12 w-auto object-contain"
+              />
+            </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-4">{t.tagline}</p>
             <div className="space-y-1 text-sm">
               <div className="flex items-center gap-2">
@@ -47,10 +47,10 @@ export default function Footer({ locale, t }: Props) {
             <h3 className="text-white font-semibold mb-4">{t.products}</h3>
             <ul className="space-y-2 text-sm">
               {[
-                { name: t.cutFlowers,   href: lp("/products/cut-flowers") },
-                { name: t.pottedPlants, href: lp("/products/potted-plants") },
-                { name: t.bulbs,        href: lp("/products/bulbs") },
-                { name: t.accessories,  href: lp("/products/accessories") },
+                { name: t.cutFlowers,   href: lp("/products") },
+                { name: t.pottedPlants, href: lp("/products") },
+                { name: t.bulbs,        href: lp("/products") },
+                { name: t.accessories,  href: lp("/products") },
               ].map((l) => (
                 <li key={l.href}>
                   <Link href={l.href} className="hover:text-white transition-colors">{l.name}</Link>
@@ -94,7 +94,7 @@ export default function Footer({ locale, t }: Props) {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+        <div className="mt-8 sm:mt-10 lg:mt-12 pt-6 sm:pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           <p>© {year} {t.rights}</p>
           <div className="flex gap-6">
             <Link href={lp("/privacy")} className="hover:text-gray-300">{t.privacy}</Link>

@@ -17,11 +17,11 @@ export default function Header({ locale, t, isLoggedIn = false, userName }: Head
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
 
-  const lp = (path: string) => `/${locale}${path}`;
+  const lp = (path: string) => path;
 
-  // Build alternate-locale URL by swapping the locale prefix
+  // Locale switcher: set cookie and refresh current path
   const otherLocale: Locale = locale === "he" ? "en" : "he";
-  const altPath = pathname.replace(`/${locale}`, `/${otherLocale}`);
+  const switchLocaleHref = `/api/locale?locale=${otherLocale}&next=${encodeURIComponent(pathname || "/")}`;
 
   const navigation = [
     { name: t.home,      href: lp("/") },
@@ -38,12 +38,12 @@ export default function Header({ locale, t, isLoggedIn = false, userName }: Head
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          <Link href={lp("/")} className="flex items-center gap-2 flex-shrink-0">
-            <span className="text-2xl">🌸</span>
-            <div className="leading-tight">
-              <div className="text-lg font-bold text-green-800 leading-none">גבעת הפרחים</div>
-              <div className="text-xs text-gray-400 leading-none">Flower Hill</div>
-            </div>
+          <Link href={lp("/")} className="flex items-center flex-shrink-0">
+            <img
+              src="/logo.png"
+              alt="Flower Hill - גבעת הפרחים"
+              className="h-10 sm:h-12 w-auto object-contain"
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -63,7 +63,7 @@ export default function Header({ locale, t, isLoggedIn = false, userName }: Head
           <div className="hidden md:flex items-center gap-3">
             {/* Language switcher */}
             <Link
-              href={altPath}
+              href={switchLocaleHref}
               className="text-xs font-semibold text-gray-500 hover:text-green-800 border border-gray-200 hover:border-green-400 px-2.5 py-1.5 rounded-md transition-colors"
               title={otherLocale === "en" ? "Switch to English" : "עבור לעברית"}
             >
@@ -157,7 +157,7 @@ export default function Header({ locale, t, isLoggedIn = false, userName }: Head
               )}
               {/* Language switcher in mobile menu */}
               <Link
-                href={altPath}
+                href={switchLocaleHref}
                 className="block w-full text-center border border-gray-200 text-gray-500 py-2 rounded-md hover:bg-gray-50 text-sm font-semibold"
                 onClick={() => setMobileOpen(false)}
               >
@@ -168,10 +168,10 @@ export default function Header({ locale, t, isLoggedIn = false, userName }: Head
         </div>
       )}
 
-      {/* Mobile sticky WhatsApp FAB */}
+      {/* Mobile sticky WhatsApp FAB - inset-inline-start for RTL support */}
       <a
         href="https://wa.me/9720000000000"
-        className="md:hidden fixed bottom-6 left-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors"
+        className="whatsapp-fab md:hidden fixed left-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors touch-manipulation"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"
