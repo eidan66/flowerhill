@@ -3,6 +3,8 @@ import { getSession } from "@/app/lib/session";
 import { redirect } from "next/navigation";
 import { getLocale } from "@/app/lib/getLocale";
 import LogoutButton from "./LogoutButton";
+import { Icon } from "@/app/components/icons";
+import type { IconName } from "@/app/components/icons";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
@@ -22,10 +24,10 @@ export default async function AccountPage() {
   const t = dict.account;
   const lp = (path: string) => path;
 
-  const actions = [
-    { icon: "📋", title: t.catalogTitle, desc: t.catalogDesc, href: lp("/products") },
-    { icon: "💬", title: t.quoteTitle,   desc: t.quoteDesc,   href: lp("/contact") },
-    { icon: "📄", title: t.formsTitle,   desc: t.formsDesc,   href: lp("/resources") },
+  const actions: { icon: IconName; title: string; desc: string; href: string }[] = [
+    { icon: "file",   title: t.catalogTitle, desc: t.catalogDesc, href: lp("/products") },
+    { icon: "message", title: t.quoteTitle,   desc: t.quoteDesc,   href: lp("/contact") },
+    { icon: "file",   title: t.formsTitle,   desc: t.formsDesc,   href: lp("/resources") },
   ];
 
   return (
@@ -46,7 +48,9 @@ export default async function AccountPage() {
           {actions.map((a) => (
             <a key={a.title} href={a.href}
               className="bg-white rounded-xl border border-gray-200 hover:border-green-400 hover:shadow-sm transition-all p-5 flex items-start gap-4">
-              <span className="text-3xl flex-shrink-0">{a.icon}</span>
+              <div className="flex-shrink-0 text-green-700">
+                <Icon name={a.icon} className="h-8 w-8" />
+              </div>
               <div>
                 <div className="font-semibold text-gray-900">{a.title}</div>
                 <div className="text-gray-500 text-sm">{a.desc}</div>

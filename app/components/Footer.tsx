@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Locale } from "@/app/lib/i18n";
 import type { Dict } from "@/app/lib/i18n/he";
+import { Icon } from "@/app/components/icons";
 
 interface Props {
   locale: Locale;
@@ -28,15 +29,15 @@ export default function Footer({ locale, t }: Props) {
             <p className="text-sm text-gray-400 leading-relaxed mb-4">{t.tagline}</p>
             <div className="space-y-1 text-sm">
               <div className="flex items-center gap-2">
-                <span>📞</span>
-                <a href="tel:+972-0-0000000" className="hover:text-white transition-colors">TBD</a>
+                <Icon name="phone" className="h-4 w-4 flex-shrink-0 text-gray-400" />
+                <a href="tel:+97297487153" className="hover:text-white transition-colors" dir="ltr">{t.phoneValue}</a>
               </div>
               <div className="flex items-center gap-2">
-                <span>✉️</span>
-                <a href="mailto:info@flowerhill.co.il" className="hover:text-white transition-colors" dir="ltr">info@flowerhill.co.il</a>
+                <Icon name="mail" className="h-4 w-4 flex-shrink-0 text-gray-400" />
+                <a href={`mailto:${t.emailValue}`} className="hover:text-white transition-colors" dir="ltr">{t.emailValue}</a>
               </div>
               <div className="flex items-center gap-2">
-                <span>🕐</span>
+                <Icon name="clock" className="h-4 w-4 flex-shrink-0 text-gray-400" />
                 <span>{t.hours}</span>
               </div>
             </div>

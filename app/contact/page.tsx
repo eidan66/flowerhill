@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { getLocale } from "@/app/lib/getLocale";
+import { Icon } from "@/app/components/icons";
+import type { IconName } from "@/app/components/icons";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
@@ -12,11 +14,12 @@ export default async function ContactPage() {
   const { default: dict } = await import(`@/app/lib/i18n/${locale}`);
   const t = dict.contact;
 
-  const contactMethods = [
-    { icon: "📞", title: t.phone,    value: "TBD",              sub: t.phoneHours, href: "tel:+972000000000" },
-    { icon: "✉️", title: t.email,    value: "info@flowerhill.co.il", sub: t.emailSub, href: "mailto:info@flowerhill.co.il" },
-    { icon: "💬", title: t.whatsapp, value: t.whatsappValue,     sub: t.whatsappSub, href: "https://wa.me/9720000000000" },
-    { icon: "📍", title: t.address,  value: t.addressValue,      sub: t.addressSub, href: "#" },
+  const contactMethods: { icon: IconName; title: string; value: string; sub: string; href: string }[] = [
+    { icon: "phone",    title: t.phone,    value: t.phoneValue,     sub: t.phoneHours, href: "tel:+97297487153" },
+    { icon: "phone",    title: t.fax,      value: t.faxValue,      sub: "",          href: "tel:+97297416007" },
+    { icon: "mail",     title: t.email,    value: t.emailValue,     sub: t.emailSub,   href: `mailto:${t.emailValue}` },
+    { icon: "message",  title: t.whatsapp, value: t.whatsappValue,  sub: t.whatsappSub, href: "https://wa.me/97297487153" },
+    { icon: "mapPin",   title: t.address,  value: t.addressValue,   sub: t.addressSub, href: "https://www.google.com/maps/search/%D7%92%D7%91%D7%A2%D7%AA+%D7%94%D7%A4%D7%A8%D7%97%D7%99%D7%9D+Givat+Hen" },
   ];
 
   return (
@@ -34,7 +37,9 @@ export default async function ContactPage() {
                 target={m.href.startsWith("http") ? "_blank" : undefined}
                 rel={m.href.startsWith("http") ? "noopener noreferrer" : undefined}
               >
-                <span className="text-3xl flex-shrink-0">{m.icon}</span>
+                <div className="flex-shrink-0 text-green-700">
+                  <Icon name={m.icon} className="h-8 w-8" />
+                </div>
                 <div>
                   <div className="font-semibold text-gray-900 group-hover:text-green-800">{m.title}</div>
                   <div className="text-green-700 font-medium text-sm">{m.value}</div>
@@ -42,15 +47,58 @@ export default async function ContactPage() {
                 </div>
               </a>
             ))}
-            <div className="bg-green-800 text-white rounded-xl p-5">
-              <div className="font-bold mb-1">{t.fastResponse}</div>
-              <p className="text-green-100 text-sm">{t.fastResponseDesc}</p>
+            <div className="bg-green-800 text-white rounded-xl p-5 flex items-start gap-3">
+              <Icon name="zap" className="h-6 w-6 flex-shrink-0 text-amber-300" />
+              <div>
+                <div className="font-bold mb-1">{t.fastResponse}</div>
+                <p className="text-green-100 text-sm">{t.fastResponseDesc}</p>
+              </div>
             </div>
+            <p className="text-sm text-gray-600">
+              {t.officeEmailLabel}: <a href={`mailto:${t.officeEmail}`} className="text-green-700 hover:text-green-800 font-medium" dir="ltr">{t.officeEmail}</a>
+            </p>
           </div>
 
-          <div className="lg:col-span-3 bg-white rounded-xl border border-gray-200 p-4 sm:p-6 lg:p-8 shadow-sm">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">{t.formTitle}</h2>
-            <form className="space-y-5" noValidate>
+          <div className="lg:col-span-3 space-y-6">
+            <div className="bg-white rounded-xl border border-gray-200 p-4 sm:p-6 shadow-sm">
+              <h2 className="text-lg font-bold text-gray-900 mb-3">{t.directionsTitle}</h2>
+              <p className="text-gray-600 text-sm leading-relaxed mb-4">{t.directionsText}</p>
+              <div className="aspect-video w-full rounded-lg overflow-hidden bg-gray-100">
+                <iframe
+                  title="גבעת הפרחים - Flower Hill on map"
+                  src="https://maps.google.com/maps?output=embed&q=32.1675,34.876111&z=15"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="w-full h-full min-h-[250px]"
+                />
+              </div>
+              <div className="mt-3 flex gap-3">
+                <a
+                  href="https://www.google.com/maps/search/%D7%92%D7%91%D7%A2%D7%AA+%D7%94%D7%A4%D7%A8%D7%97%D7%99%D7%9D+Givat+Hen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-green-700 hover:text-green-800 font-medium"
+                >
+                  {locale === "he" ? "פתח ב-Google Maps" : "Open in Google Maps"}
+                </a>
+                <a
+                  href="https://waze.com/ul?q=%D7%92%D7%91%D7%A2%D7%AA%20%D7%94%D7%A4%D7%A8%D7%97%D7%99%D7%9D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-green-700 hover:text-green-800 font-medium"
+                >
+                  Waze
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl border border-gray-200 p-4 sm:p-6 lg:p-8 shadow-sm">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">{t.formTitle}</h2>
+              <form className="space-y-5" noValidate>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <div>
                   <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
@@ -125,7 +173,8 @@ export default async function ContactPage() {
               </button>
 
               <p className="text-xs text-gray-500 text-center">{t.privacy}</p>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </div>

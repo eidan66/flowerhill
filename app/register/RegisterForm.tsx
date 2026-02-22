@@ -2,6 +2,7 @@
 
 import { useActionState } from "react";
 import Link from "next/link";
+import { CheckCircle } from "lucide-react";
 import { registerAction, type RegisterResult } from "@/app/actions/auth";
 import type { Dict } from "@/app/lib/i18n/he";
 
@@ -33,7 +34,9 @@ export default function RegisterForm({ t }: Props) {
   if (state.success) {
     return (
       <div className="text-center py-8 space-y-4">
-        <div className="text-5xl">✅</div>
+        <div className="flex justify-center text-green-600">
+          <CheckCircle className="h-16 w-16" />
+        </div>
         <h2 className="text-xl font-bold text-green-900">{t.successTitle}</h2>
         <p className="text-gray-600 text-sm leading-relaxed">{t.successDesc}</p>
         <Link href="/login" className="inline-block mt-4 text-green-700 font-semibold hover:text-green-900 text-sm">

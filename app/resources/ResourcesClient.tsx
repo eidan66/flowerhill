@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { Dict } from "@/app/lib/i18n/he";
+import { Icon } from "@/app/components/icons";
+import type { IconName } from "@/app/components/icons";
 
 interface Props {
   t: Dict["resources"];
@@ -23,11 +25,11 @@ export default function ResourcesClient({ t }: Props) {
     { q: t.faq8q, a: t.faq8a },
   ];
 
-  const docs = [
-    { icon: "📄", name: t.doc1Name, desc: t.doc1Desc },
-    { icon: "📋", name: t.doc2Name, desc: t.doc2Desc },
-    { icon: "📑", name: t.doc3Name, desc: t.doc3Desc },
-    { icon: "📃", name: t.doc4Name, desc: t.doc4Desc },
+  const docs: { icon: IconName; name: string; desc: string }[] = [
+    { icon: "file", name: t.doc1Name, desc: t.doc1Desc },
+    { icon: "file", name: t.doc2Name, desc: t.doc2Desc },
+    { icon: "file", name: t.doc3Name, desc: t.doc3Desc },
+    { icon: "file", name: t.doc4Name, desc: t.doc4Desc },
   ];
 
   return (
@@ -38,7 +40,9 @@ export default function ResourcesClient({ t }: Props) {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {docs.map((doc) => (
             <div key={doc.name} className="flex items-start gap-4 bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-green-400 hover:shadow-sm transition-all cursor-pointer group">
-              <span className="text-3xl flex-shrink-0">{doc.icon}</span>
+              <div className="flex-shrink-0 text-green-700">
+                <Icon name={doc.icon} className="h-8 w-8" />
+              </div>
               <div>
                 <div className="font-semibold text-gray-900 group-hover:text-green-800">{doc.name}</div>
                 <div className="text-gray-600 text-sm mt-0.5">{doc.desc}</div>

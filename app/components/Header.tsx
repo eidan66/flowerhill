@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Locale } from "@/app/lib/i18n";
 import type { Dict } from "@/app/lib/i18n/he";
+import { Icon } from "@/app/components/icons";
 
 interface HeaderProps {
   locale: Locale;
@@ -92,7 +93,7 @@ export default function Header({ locale, t, isLoggedIn = false, userName }: Head
                 href={lp("/account")}
                 className="text-sm text-green-800 border border-green-300 px-3 py-2 rounded-md hover:bg-green-50 transition-colors font-medium flex items-center gap-1.5"
               >
-                <span className="text-base">👤</span>
+                <Icon name="user" className="h-4 w-4" />
                 {userName ?? t.account}
               </Link>
             ) : (
@@ -141,10 +142,11 @@ export default function Header({ locale, t, isLoggedIn = false, userName }: Head
               {isLoggedIn ? (
                 <Link
                   href={lp("/account")}
-                  className="block w-full text-center border border-green-400 text-green-800 py-2 rounded-md hover:bg-green-50"
+                  className="block w-full text-center border border-green-400 text-green-800 py-2 rounded-md hover:bg-green-50 flex items-center justify-center gap-2"
                   onClick={() => setMobileOpen(false)}
                 >
-                  👤 {userName ?? t.account}
+                  <Icon name="user" className="h-4 w-4" />
+                  {userName ?? t.account}
                 </Link>
               ) : (
                 <Link

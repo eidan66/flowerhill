@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getLocale } from "@/app/lib/getLocale";
+import { Icon } from "@/app/components/icons";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
@@ -14,11 +15,11 @@ export default async function AboutPage() {
   const t = dict.about;
   const lp = (path: string) => path;
 
-  const values = [
-    { icon: "🏆", title: t.value1Title, desc: t.value1Desc },
-    { icon: "🤝", title: t.value2Title, desc: t.value2Desc },
-    { icon: "🌿", title: t.value3Title, desc: t.value3Desc },
-    { icon: "👥", title: t.value4Title, desc: t.value4Desc },
+  const values: { icon: import("@/app/components/icons").IconName; title: string; desc: string }[] = [
+    { icon: "trophy",   title: t.value1Title, desc: t.value1Desc },
+    { icon: "handshake", title: t.value2Title, desc: t.value2Desc },
+    { icon: "leaf",    title: t.value3Title, desc: t.value3Desc },
+    { icon: "users",   title: t.value4Title, desc: t.value4Desc },
   ];
 
   return (
@@ -45,7 +46,9 @@ export default async function AboutPage() {
             </div>
             <div className="bg-gradient-to-br from-green-50 to-amber-50 rounded-2xl p-12 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-8xl mb-4">🌸</div>
+                <div className="mb-4 flex justify-center text-green-700">
+                  <Icon name="flower" className="h-24 w-24" />
+                </div>
                 <div className="text-2xl font-bold text-green-800">גבעת הפרחים</div>
                 <div className="text-gray-600 mt-1">Flower Hill</div>
               </div>
@@ -78,7 +81,9 @@ export default async function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map((v) => (
               <div key={v.title} className="bg-white rounded-xl p-6 border border-gray-200 text-center">
-                <div className="text-4xl mb-3">{v.icon}</div>
+                <div className="mb-3 flex justify-center text-green-700">
+                  <Icon name={v.icon} className="h-10 w-10" />
+                </div>
                 <h3 className="font-bold text-gray-900 mb-2">{v.title}</h3>
                 <p className="text-gray-600 text-sm">{v.desc}</p>
               </div>

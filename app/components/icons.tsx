@@ -1,0 +1,65 @@
+import {
+  Flower2,
+  Leaf,
+  Layers,
+  Package,
+  PartyPopper,
+  Building2,
+  Globe,
+  Snowflake,
+  CheckCircle,
+  FileText,
+  Zap,
+  Phone,
+  Mail,
+  MessageCircle,
+  MapPin,
+  Clock,
+  User,
+  Info,
+  Plane,
+  Timer,
+  DollarSign,
+  TrendingUp,
+  Handshake,
+  Trophy,
+  Users,
+  Scissors,
+  type LucideIcon,
+} from "lucide-react";
+
+export const icons = {
+  flower: Flower2,
+  leaf: Leaf,
+  layers: Layers,
+  package: Package,
+  party: PartyPopper,
+  building: Building2,
+  globe: Globe,
+  snowflake: Snowflake,
+  check: CheckCircle,
+  file: FileText,
+  zap: Zap,
+  phone: Phone,
+  mail: Mail,
+  message: MessageCircle,
+  mapPin: MapPin,
+  clock: Clock,
+  user: User,
+  info: Info,
+  plane: Plane,
+  timer: Timer,
+  dollar: DollarSign,
+  trendingUp: TrendingUp,
+  handshake: Handshake,
+  trophy: Trophy,
+  users: Users,
+  scissors: Scissors,
+} as const satisfies Record<string, LucideIcon>;
+
+export type IconName = keyof typeof icons;
+
+export function Icon({ name, className }: { name: IconName; className?: string }) {
+  const LucideIcon = icons[name];
+  return <LucideIcon className={className} aria-hidden />;
+}

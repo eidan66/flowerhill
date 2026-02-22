@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getLocale } from "@/app/lib/getLocale";
+import { Icon } from "@/app/components/icons";
+import type { IconName } from "@/app/components/icons";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
@@ -28,7 +30,7 @@ export default async function ServicesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div className="bg-white rounded-2xl border border-gray-200 p-8">
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-4xl">✈️</span>
+                <Icon name="plane" className="h-10 w-10 text-green-700" />
                 <h2 className="text-2xl font-bold text-gray-900">{t.exportTitle}</h2>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">{t.exportDesc}</p>
@@ -47,7 +49,7 @@ export default async function ServicesPage() {
 
             <div className="bg-white rounded-2xl border border-gray-200 p-8">
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-4xl">📦</span>
+                <Icon name="package" className="h-10 w-10 text-green-700" />
                 <h2 className="text-2xl font-bold text-gray-900">{t.importTitle}</h2>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">{t.importDesc}</p>
@@ -75,12 +77,14 @@ export default async function ServicesPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {[
-              { icon: "❄️", title: t.cold,   desc: t.coldDesc },
-              { icon: "📋", title: t.docs,   desc: t.docsDesc },
-              { icon: "⏱️", title: t.timing, desc: t.timingDesc },
+              { icon: "snowflake" as IconName, title: t.cold,   desc: t.coldDesc },
+              { icon: "file" as IconName,      title: t.docs,   desc: t.docsDesc },
+              { icon: "timer" as IconName,     title: t.timing, desc: t.timingDesc },
             ].map((item) => (
               <div key={item.title} className="text-center bg-green-50 rounded-xl p-8 border border-green-100">
-                <div className="text-5xl mb-4">{item.icon}</div>
+                <div className="mb-4 flex justify-center text-green-700">
+                  <Icon name={item.icon} className="h-12 w-12" />
+                </div>
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.desc}</p>
               </div>

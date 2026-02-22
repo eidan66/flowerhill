@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getLocale } from "@/app/lib/getLocale";
+import { Icon } from "@/app/components/icons";
+import type { IconName } from "@/app/components/icons";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
@@ -14,11 +16,11 @@ export default async function SuppliersPage() {
   const t = dict.suppliers;
   const lp = (path: string) => path;
 
-  const benefits = [
-    { icon: "🌍", title: t.benefit1Title, desc: t.benefit1Desc },
-    { icon: "💰", title: t.benefit2Title, desc: t.benefit2Desc },
-    { icon: "📈", title: t.benefit3Title, desc: t.benefit3Desc },
-    { icon: "🤝", title: t.benefit4Title, desc: t.benefit4Desc },
+  const benefits: { icon: IconName; title: string; desc: string }[] = [
+    { icon: "globe",      title: t.benefit1Title, desc: t.benefit1Desc },
+    { icon: "dollar",    title: t.benefit2Title, desc: t.benefit2Desc },
+    { icon: "trendingUp", title: t.benefit3Title, desc: t.benefit3Desc },
+    { icon: "handshake", title: t.benefit4Title, desc: t.benefit4Desc },
   ];
 
   const steps = [
@@ -45,7 +47,9 @@ export default async function SuppliersPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {benefits.map((b) => (
               <div key={b.title} className="bg-white rounded-xl p-6 border border-gray-200 hover:border-green-400 hover:shadow-sm transition-all text-center">
-                <div className="text-4xl mb-3">{b.icon}</div>
+                <div className="mb-3 flex justify-center text-green-700">
+                  <Icon name={b.icon} className="h-10 w-10" />
+                </div>
                 <h3 className="font-bold text-gray-900 mb-2">{b.title}</h3>
                 <p className="text-gray-600 text-sm">{b.desc}</p>
               </div>

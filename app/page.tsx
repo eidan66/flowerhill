@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { getLocale } from "@/app/lib/getLocale";
+import { Icon } from "@/app/components/icons";
+import type { IconName } from "@/app/components/icons";
 
 export default async function HomePage() {
   const locale = await getLocale();
@@ -14,25 +16,25 @@ export default async function HomePage() {
     { value: "יומי" , label: t.trustDelivery },
   ];
 
-  const categories = [
-    { emoji: "🌹", title: t.cutFlowersTitle,    desc: t.cutFlowersDesc,    href: lp("/products") },
-    { emoji: "🪴", title: t.pottedPlantsTitle,  desc: t.pottedPlantsDesc,  href: lp("/products") },
-    { emoji: "🧅", title: t.bulbsTitle,          desc: t.bulbsDesc,          href: lp("/products") },
-    { emoji: "📦", title: t.accessoriesTitle,    desc: t.accessoriesDesc,    href: lp("/products") },
+  const categories: { icon: IconName; title: string; desc: string; href: string }[] = [
+    { icon: "flower", title: t.cutFlowersTitle,    desc: t.cutFlowersDesc,    href: lp("/products") },
+    { icon: "leaf",   title: t.pottedPlantsTitle,  desc: t.pottedPlantsDesc,  href: lp("/products") },
+    { icon: "layers", title: t.bulbsTitle,         desc: t.bulbsDesc,         href: lp("/products") },
+    { icon: "package", title: t.accessoriesTitle,  desc: t.accessoriesDesc,   href: lp("/products") },
   ];
 
-  const audiences = [
-    { icon: "🌸", title: t.floristsTitle, desc: t.floristsDesc, cta: t.floristsCta, href: lp("/products") },
-    { icon: "🎊", title: t.eventsTitle,   desc: t.eventsDesc,   cta: t.eventsCta,   href: lp("/products") },
-    { icon: "🏨", title: t.hotelsTitle,   desc: t.hotelsDesc,   cta: t.hotelsCta,   href: lp("/products") },
-    { icon: "🌍", title: t.exportTitle,   desc: t.exportDesc,   cta: t.exportCta,   href: lp("/services") },
+  const audiences: { icon: IconName; title: string; desc: string; cta: string; href: string }[] = [
+    { icon: "flower", title: t.floristsTitle, desc: t.floristsDesc, cta: t.floristsCta, href: lp("/products") },
+    { icon: "party",  title: t.eventsTitle,   desc: t.eventsDesc,   cta: t.eventsCta,   href: lp("/products") },
+    { icon: "building", title: t.hotelsTitle, desc: t.hotelsDesc,    cta: t.hotelsCta,   href: lp("/products") },
+    { icon: "globe",  title: t.exportTitle,   desc: t.exportDesc,   cta: t.exportCta,   href: lp("/services") },
   ];
 
-  const trustItems = [
-    { icon: "❄️", title: t.coldChainTitle, desc: t.coldChainDesc },
-    { icon: "✅", title: t.qualityTitle,   desc: t.qualityDesc },
-    { icon: "📋", title: t.docsTitle,      desc: t.docsDesc },
-    { icon: "⚡", title: t.responseTitle,  desc: t.responseDesc },
+  const trustItems: { icon: IconName; title: string; desc: string }[] = [
+    { icon: "snowflake", title: t.coldChainTitle, desc: t.coldChainDesc },
+    { icon: "check",    title: t.qualityTitle,   desc: t.qualityDesc },
+    { icon: "file",     title: t.docsTitle,       desc: t.docsDesc },
+    { icon: "zap",      title: t.responseTitle,   desc: t.responseDesc },
   ];
 
   return (
@@ -89,7 +91,9 @@ export default async function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {categories.map((cat) => (
               <Link key={cat.href} href={cat.href} className="group bg-white rounded-xl border border-gray-200 hover:border-green-400 hover:shadow-md transition-all p-6">
-                <div className="text-4xl mb-4">{cat.emoji}</div>
+                <div className="mb-4 text-green-700">
+                  <Icon name={cat.icon} className="h-10 w-10" />
+                </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-green-800">{cat.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{cat.desc}</p>
                 <div className="mt-4 text-green-700 font-medium text-sm group-hover:text-green-900">
@@ -111,7 +115,9 @@ export default async function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {audiences.map((a) => (
               <div key={a.href} className="bg-green-50 rounded-xl p-6 border border-green-100 hover:border-green-300 transition-colors">
-                <div className="text-4xl mb-4">{a.icon}</div>
+                <div className="mb-4 text-green-700">
+                  <Icon name={a.icon} className="h-10 w-10" />
+                </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{a.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">{a.desc}</p>
                 <Link href={a.href} className="text-green-700 font-semibold text-sm hover:text-green-900">
@@ -132,7 +138,9 @@ export default async function HomePage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {trustItems.map((item) => (
               <div key={item.title} className="text-center">
-                <div className="text-4xl mb-3">{item.icon}</div>
+                <div className="mb-3 flex justify-center text-green-700">
+                  <Icon name={item.icon} className="h-10 w-10" />
+                </div>
                 <h3 className="font-semibold text-gray-900 mb-1">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.desc}</p>
               </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import { Icon } from './icons';
 
 const Hero: React.FC = () => {
   return (
@@ -32,7 +33,9 @@ const Hero: React.FC = () => {
               <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border-8 border-white">
                 <div className="aspect-video bg-gradient-to-br from-green-100 to-amber-100 flex items-center justify-center">
                   <div className="text-center p-8">
-                    <div className="text-5xl mb-4">🌸</div>
+                    <div className="mb-4 flex justify-center text-green-700">
+                      <Icon name="flower" className="h-16 w-16" />
+                    </div>
                     <p className="text-green-800 font-semibold">Premium Wholesale Flowers</p>
                     <p className="text-gray-600 mt-2">Serving Global Markets Since 1980s</p>
                   </div>
