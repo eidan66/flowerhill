@@ -1,0 +1,2225 @@
+{
+  "products": [
+    {
+      "name": "אירוס",
+      "c0": "14382",
+      "image": "/catalog/14382.JPG",
+      "slug": "14382",
+      "nameEn": "Iris"
+    },
+    {
+      "name": "אכילאה פרקר",
+      "c0": "14396",
+      "image": "/catalog/14396.jpg",
+      "slug": "14396",
+      "nameEn": "Achillea"
+    },
+    {
+      "name": "אלואה קוסמו",
+      "c0": "16192",
+      "image": "/catalog/16192.jpg",
+      "slug": "16192",
+      "nameEn": "Aloe cosmo"
+    },
+    {
+      "name": "אלסטרומריה",
+      "c0": "14418",
+      "image": "/catalog/14418.jpg",
+      "slug": "14418",
+      "nameEn": "alstromeria"
+    },
+    {
+      "name": "אמריליס",
+      "c0": "14421",
+      "image": "/catalog/14421.jpg",
+      "slug": "14421",
+      "nameEn": "Hippeastrum"
+    },
+    {
+      "name": "אמריליס בלדונה",
+      "c0": "14386",
+      "image": "/catalog/14386.jpg",
+      "slug": "14386",
+      "nameEn": "Amaryllis belladonna"
+    },
+    {
+      "name": "אמרנטוס",
+      "c0": "14486",
+      "image": "/catalog/14486.jpg",
+      "slug": "14486",
+      "nameEn": "Amaranthus"
+    },
+    {
+      "name": "אנטוריום",
+      "c0": "14483",
+      "image": "/catalog/14483.jpg",
+      "slug": "14483",
+      "nameEn": "Anthurium"
+    },
+    {
+      "name": "אננס",
+      "c0": "14393",
+      "image": "/catalog/14393.jpg",
+      "slug": "14393",
+      "nameEn": "Ananas"
+    },
+    {
+      "name": "אנקור טייפ",
+      "c0": "14385",
+      "image": "/catalog/14385.jpg",
+      "slug": "14385",
+      "nameEn": "anchor tape"
+    },
+    {
+      "name": "אסטילבה",
+      "c0": "14584",
+      "image": "/catalog/14584.JPG",
+      "slug": "14584",
+      "nameEn": "Astilbe"
+    },
+    {
+      "name": "אסטר ורדה",
+      "c0": "14436",
+      "image": "/catalog/14436.jpg",
+      "slug": "14436",
+      "nameEn": "Aster"
+    },
+    {
+      "name": "אסטר שורש",
+      "c0": "14389",
+      "image": "/catalog/14389.JPG",
+      "slug": "14389",
+      "nameEn": "Aster"
+    },
+    {
+      "name": "אספדיסטרה / מגינית",
+      "c0": "14411",
+      "image": "/catalog/14411.JPG",
+      "slug": "14411",
+      "nameEn": "Aspidistra elatior"
+    },
+    {
+      "name": "אספדיסטרה/מגינית  מגוונת",
+      "c0": "14408",
+      "image": "/catalog/14408.jpg",
+      "slug": "14408",
+      "nameEn": "Aspidistra"
+    },
+    {
+      "name": "אספדיסטרה/מגינית  מנוקדת",
+      "c0": "14424",
+      "image": "/catalog/14424.jpg",
+      "slug": "14424",
+      "nameEn": "Aspidistra"
+    },
+    {
+      "name": "אספרגוס ורגטוס",
+      "c0": "14400",
+      "image": "/catalog/14400.jpg",
+      "slug": "14400",
+      "nameEn": "Asparagus virgatus"
+    },
+    {
+      "name": "אספרגוס מאירי",
+      "c0": "14439",
+      "image": "/catalog/14439.jpg",
+      "slug": "14439",
+      "nameEn": "Asparagus densiflorus Meyers"
+    },
+    {
+      "name": "אספרגוס מריקלדיוס",
+      "c0": "14456",
+      "image": "/catalog/14456.jpg",
+      "slug": "14456",
+      "nameEn": "Asparagus myriocladus"
+    },
+    {
+      "name": "אספרגוס פלימוזיס",
+      "c0": "14429",
+      "image": "/catalog/14429.jpg",
+      "slug": "14429",
+      "nameEn": "Asparagus plumosus"
+    },
+    {
+      "name": "אסקלפיאס טוברוזה",
+      "c0": "14445",
+      "image": "/catalog/14445.jpg",
+      "slug": "14445",
+      "nameEn": "Asclepias tuberosa"
+    },
+    {
+      "name": "אפונה ריחנית",
+      "c0": "14518",
+      "image": "/catalog/14518.jpg",
+      "slug": "14518",
+      "nameEn": "Lathyrus"
+    },
+    {
+      "name": "אפורביה",
+      "c0": "14595",
+      "image": "/catalog/14595.jpg",
+      "slug": "14595",
+      "nameEn": "Euphorbia fullguns"
+    },
+    {
+      "name": "אקוניטום",
+      "c0": "14431",
+      "image": "/catalog/14431.jpg",
+      "slug": "14431",
+      "nameEn": "Aconitum"
+    },
+    {
+      "name": "אקליפטוס מקור",
+      "c0": "14379",
+      "image": "/catalog/14379.jpg",
+      "slug": "14379",
+      "nameEn": "Eucalyptus"
+    },
+    {
+      "name": "אקליפטוס פרובולנטה",
+      "c0": "14441",
+      "image": "/catalog/14441.jpg",
+      "slug": "14441",
+      "nameEn": "אקליפטוס פרובולנטה"
+    },
+    {
+      "name": "אקציה",
+      "c0": "14415",
+      "image": "/catalog/14415.jpg",
+      "slug": "14415",
+      "nameEn": "אקציה"
+    },
+    {
+      "name": "ארומרוס",
+      "c0": "14383",
+      "image": "/catalog/14383.jpg",
+      "slug": "14383",
+      "nameEn": "ארומרוס"
+    },
+    {
+      "name": "ארטישוק",
+      "c0": "14397",
+      "image": "/catalog/14397.jpg",
+      "slug": "14397",
+      "nameEn": "ארטישוק"
+    },
+    {
+      "name": "ארינגיום",
+      "c0": "14419",
+      "image": "/catalog/14419.jpg",
+      "slug": "14419",
+      "nameEn": "ארינגיום"
+    },
+    {
+      "name": "ארליה",
+      "c0": "14422",
+      "image": "/catalog/14422.JPG",
+      "slug": "14422",
+      "nameEn": "ארליה"
+    },
+    {
+      "name": "ארליה אצבעות אלגנט",
+      "c0": "14387",
+      "image": "/catalog/14387.jpg",
+      "slug": "14387",
+      "nameEn": "ארליה אצבעות אלגנט"
+    },
+    {
+      "name": "אתרוג",
+      "c0": "14487",
+      "image": "/catalog/14487.jpg",
+      "slug": "14487",
+      "nameEn": "אתרוג"
+    },
+    {
+      "name": "בבונג פורח",
+      "c0": "14406",
+      "image": "/catalog/14406.JPG",
+      "slug": "14406",
+      "nameEn": "בבונג פורח"
+    },
+    {
+      "name": "בוורדיאיה",
+      "c0": "14484",
+      "image": "/catalog/14484.jpg",
+      "slug": "14484",
+      "nameEn": "בוורדיאיה"
+    },
+    {
+      "name": "ביפי",
+      "c0": "14425",
+      "image": "/catalog/14425.jpg",
+      "slug": "14425",
+      "nameEn": "ביפי"
+    },
+    {
+      "name": "בנקציות",
+      "c0": "14409",
+      "image": "/catalog/14409.jpg",
+      "slug": "14409",
+      "nameEn": "בנקציות"
+    },
+    {
+      "name": "בר גביע",
+      "c0": "14420",
+      "image": "/catalog/14420.jpg",
+      "slug": "14420",
+      "nameEn": "בר גביע"
+    },
+    {
+      "name": "גודציה",
+      "c0": "14440",
+      "image": "/catalog/14440.jpg",
+      "slug": "14440",
+      "nameEn": "גודציה"
+    },
+    {
+      "name": "גומא דבורה",
+      "c0": "14457",
+      "image": "/catalog/14457.JPG",
+      "slug": "14457",
+      "nameEn": "גומא דבורה"
+    },
+    {
+      "name": "גומא פפירוס",
+      "c0": "14430",
+      "image": "/catalog/14430.JPG",
+      "slug": "14430",
+      "nameEn": "גומא פפירוס"
+    },
+    {
+      "name": "גומיות גדולות/קטנות",
+      "c0": "14392",
+      "image": "/catalog/14392.jpg",
+      "slug": "14392",
+      "nameEn": "גומיות גדולות/קטנות"
+    },
+    {
+      "name": "גונפרנה",
+      "c0": "14401",
+      "image": "/catalog/14401.jpg",
+      "slug": "14401",
+      "nameEn": "גונפרנה"
+    },
+    {
+      "name": "גיפסנית",
+      "c0": "14437",
+      "image": "/catalog/14437.jpg",
+      "slug": "14437",
+      "nameEn": "גיפסנית"
+    },
+    {
+      "name": "גיפסנית- מיליון סטאר",
+      "c0": "14446",
+      "image": "/catalog/14446.jpg",
+      "slug": "14446",
+      "nameEn": "גיפסנית- מיליון סטאר"
+    },
+    {
+      "name": "גלגלי אבל",
+      "c0": "14410",
+      "image": "/catalog/14410.jpg",
+      "slug": "14410",
+      "nameEn": "גלגלי אבל"
+    },
+    {
+      "name": "גלוריוזה",
+      "c0": "14519",
+      "image": "/catalog/14519.jpg",
+      "slug": "14519",
+      "nameEn": "גלוריוזה"
+    },
+    {
+      "name": "גליל רפיה",
+      "c0": "16153",
+      "image": "/catalog/16153.jpg",
+      "slug": "16153",
+      "nameEn": "גליל רפיה"
+    },
+    {
+      "name": "גליל רפיה טריו",
+      "c0": "16151",
+      "image": "/catalog/16151.jpg",
+      "slug": "16151",
+      "nameEn": "גליל רפיה טריו"
+    },
+    {
+      "name": "גלפיני",
+      "c0": "14432",
+      "image": "/catalog/14432.jpg",
+      "slug": "14432",
+      "nameEn": "גלפיני"
+    },
+    {
+      "name": "גרבילאה איבנהו",
+      "c0": "14398",
+      "image": "/catalog/14398.jpg",
+      "slug": "14398",
+      "nameEn": "גרבילאה איבנהו"
+    },
+    {
+      "name": "גרבילאה גולד",
+      "c0": "14442",
+      "image": "/catalog/14442.jpg",
+      "slug": "14442",
+      "nameEn": "גרבילאה גולד"
+    },
+    {
+      "name": "גרבילאה עלים",
+      "c0": "14470",
+      "image": "/catalog/14470.jpg",
+      "slug": "14470",
+      "nameEn": "גרבילאה עלים"
+    },
+    {
+      "name": "גרבילאה פורחת",
+      "c0": "14384",
+      "image": "/catalog/14384.jpg",
+      "slug": "14384",
+      "nameEn": "גרבילאה פורחת"
+    },
+    {
+      "name": "גרברה",
+      "c0": "14488",
+      "image": "/catalog/14488.JPG",
+      "slug": "14488",
+      "nameEn": "גרברה"
+    },
+    {
+      "name": "גרברה מיני",
+      "c0": "14513",
+      "image": "/catalog/14513.jpg",
+      "slug": "14513",
+      "nameEn": "גרברה מיני"
+    },
+    {
+      "name": "גרברה מיקרו",
+      "c0": "16089",
+      "image": "/catalog/16089.jpg",
+      "slug": "16089",
+      "nameEn": "גרברה מיקרו"
+    },
+    {
+      "name": "דודונאה",
+      "c0": "14458",
+      "image": "/catalog/14458.jpg",
+      "slug": "14458",
+      "nameEn": "דודונאה"
+    },
+    {
+      "name": "דולפיניום בלדונה",
+      "c0": "14542",
+      "image": "/catalog/14542.jpg",
+      "slug": "14542",
+      "nameEn": "דולפיניום בלדונה"
+    },
+    {
+      "name": "דולפיניום גי'ינט",
+      "c0": "14391",
+      "image": "/catalog/14391.jpg",
+      "slug": "14391",
+      "nameEn": "דולפיניום גי'ינט"
+    },
+    {
+      "name": "דולפיניום שדה",
+      "c0": "14462",
+      "image": "/catalog/14462.jpg",
+      "slug": "14462",
+      "nameEn": "דולפיניום שדה"
+    },
+    {
+      "name": "דורה (סורגום)",
+      "c0": "14426",
+      "image": "/catalog/14426.jpg",
+      "slug": "14426",
+      "nameEn": "דורה (סורגום)"
+    },
+    {
+      "name": "דיאנלה",
+      "c0": "14501",
+      "image": "/catalog/14501.jpg",
+      "slug": "14501",
+      "nameEn": "דיאנלה"
+    },
+    {
+      "name": "דלי גדול",
+      "c0": "14701",
+      "image": "/catalog/14701.jpg",
+      "slug": "14701",
+      "nameEn": "דלי גדול"
+    },
+    {
+      "name": "דלי קטן",
+      "c0": "14702",
+      "image": "/catalog/14702.jpg",
+      "slug": "14702",
+      "nameEn": "דלי קטן"
+    },
+    {
+      "name": "דליה",
+      "c0": "14637",
+      "image": "/catalog/14637.jpg",
+      "slug": "14637",
+      "nameEn": "דליה"
+    },
+    {
+      "name": "דלעת נוי",
+      "c0": "14447",
+      "image": "/catalog/14447.jpg",
+      "slug": "14447",
+      "nameEn": "Cucurbita"
+    },
+    {
+      "name": "דסקולור",
+      "c0": "14528",
+      "image": "/catalog/14528.jpg",
+      "slug": "14528",
+      "nameEn": "Discolor"
+    },
+    {
+      "name": "הדס",
+      "c0": "14538",
+      "image": "/catalog/14538.jpg",
+      "slug": "14538",
+      "nameEn": "Myrtus"
+    },
+    {
+      "name": "הוורתיה",
+      "c0": "16170",
+      "image": "/catalog/16170.jpg",
+      "slug": "16170",
+      "nameEn": "Haworthia"
+    },
+    {
+      "name": "הורטנזיה",
+      "c0": "14520",
+      "image": "/catalog/14520.jpg",
+      "slug": "14520",
+      "nameEn": "Hydrangea"
+    },
+    {
+      "name": "היביסקוס",
+      "c0": "14489",
+      "image": "/catalog/14489.jpg",
+      "slug": "14489",
+      "nameEn": "Hibiscus"
+    },
+    {
+      "name": "הילניום",
+      "c0": "14602",
+      "image": "/catalog/14602.jpg",
+      "slug": "14602",
+      "nameEn": "Helenium"
+    },
+    {
+      "name": "הליקוניה רגילה\\אנדרומדה",
+      "c0": "14497",
+      "image": "/catalog/14497.jpg",
+      "slug": "14497",
+      "nameEn": "Heliconia"
+    },
+    {
+      "name": "הרדוף",
+      "c0": "14524",
+      "image": "/catalog/14524.jpg",
+      "slug": "14524",
+      "nameEn": "Nerium"
+    },
+    {
+      "name": "ורד אוולנג'",
+      "c0": "14451",
+      "image": "/catalog/14451.jpg",
+      "slug": "14451",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד בלה רוז",
+      "c0": "15190",
+      "image": "/catalog/15190.JPG",
+      "slug": "15190",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד גינה",
+      "c0": "14471",
+      "image": "/catalog/14471.JPG",
+      "slug": "14471",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד טוקן",
+      "c0": "14509",
+      "image": "/catalog/14509.jpg",
+      "slug": "14509",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד טיטניק",
+      "c0": "14478",
+      "image": "/catalog/14478.jpg",
+      "slug": "14478",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד לאבלי-רד",
+      "c0": "14578",
+      "image": "/catalog/14578.JPG",
+      "slug": "14578",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד מגנום",
+      "c0": "15192",
+      "image": "/catalog/15192.jpg",
+      "slug": "15192",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד מיקס",
+      "c0": "15204",
+      "image": "/catalog/15204.jpg",
+      "slug": "15204",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד סוויט אוולנג'",
+      "c0": "14443",
+      "image": "/catalog/14443.JPG",
+      "slug": "14443",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד ספריי",
+      "c0": "14433",
+      "image": "/catalog/14433.JPG",
+      "slug": "14433",
+      "nameEn": "Rosa tros Magenta Diadeem"
+    },
+    {
+      "name": "ורד פיץ אוולנג'",
+      "c0": "14467",
+      "image": "/catalog/14467.jpg",
+      "slug": "14467",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד קול ווטר",
+      "c0": "15191",
+      "image": "/catalog/15191.jpg",
+      "slug": "15191",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורד שטח",
+      "c0": "15201",
+      "image": "/catalog/15201.jpg",
+      "slug": "15201",
+      "nameEn": "rose"
+    },
+    {
+      "name": "ורוניקה",
+      "c0": "14459",
+      "image": "/catalog/14459.jpg",
+      "slug": "14459",
+      "nameEn": "Veronica"
+    },
+    {
+      "name": "זיפן",
+      "c0": "14553",
+      "image": "/catalog/14553.jpg",
+      "slug": "14553",
+      "nameEn": "Setaria"
+    },
+    {
+      "name": "זית",
+      "c0": "16184",
+      "image": "/catalog/16184.jpg",
+      "slug": "16184",
+      "nameEn": "olive"
+    },
+    {
+      "name": "זמורות גפן",
+      "c0": "14380",
+      "image": "/catalog/14380.jpg",
+      "slug": "14380",
+      "nameEn": "vitis"
+    },
+    {
+      "name": "זנב חתול",
+      "c0": "14543",
+      "image": "/catalog/14543.jpg",
+      "slug": "14543",
+      "nameEn": "Pussy willow"
+    },
+    {
+      "name": "חוט אלומיניום 0.5",
+      "c0": "16133",
+      "image": "/catalog/16133.jpg",
+      "slug": "16133",
+      "nameEn": "Aluminium  wire entanglement"
+    },
+    {
+      "name": "חוט אלומיניום עובי 1.50מ\"מ",
+      "c0": "16141",
+      "image": "/catalog/16141.jpg",
+      "slug": "16141",
+      "nameEn": "Aluminum wire"
+    },
+    {
+      "name": "חוט אלומיניום עובי1מ\"מ",
+      "c0": "16149",
+      "image": "/catalog/16149.jpg",
+      "slug": "16149",
+      "nameEn": "Aluminum wire"
+    },
+    {
+      "name": "חוט אלומיניום עובי2מ\"מ",
+      "c0": "16147",
+      "image": "/catalog/16147.jpg",
+      "slug": "16147",
+      "nameEn": "Aluminum wire"
+    },
+    {
+      "name": "חוט אלומיניום עובי5מ\"מ",
+      "c0": "16144",
+      "image": "/catalog/16144.jpg",
+      "slug": "16144",
+      "nameEn": "Aluminum wire"
+    },
+    {
+      "name": "חוט ברזל דקיק לשזירת פרחים",
+      "c0": "14709",
+      "image": "/catalog/14709.jpg",
+      "slug": "14709",
+      "nameEn": "חוט ברזל דקיק לשזירת פרחים"
+    },
+    {
+      "name": "חוט ברזל מצופה נייר",
+      "c0": "16139",
+      "image": "/catalog/16139.jpg",
+      "slug": "16139",
+      "nameEn": "Wire coated with paper."
+    },
+    {
+      "name": "חוט ברזל עטוף נייר",
+      "c0": "16137",
+      "image": "/catalog/16137.jpg",
+      "slug": "16137",
+      "nameEn": "Wire wrapping paper"
+    },
+    {
+      "name": "חוט ברזל עטוף נייר",
+      "c0": "16135",
+      "image": "/catalog/16135.jpg",
+      "slug": "16135",
+      "nameEn": "Wire wrapping paper"
+    },
+    {
+      "name": "חוטי אלומיניום חילזון",
+      "c0": "16097",
+      "image": "/catalog/16097.jpg",
+      "slug": "16097",
+      "nameEn": "Snail-shaped aluminum wire"
+    },
+    {
+      "name": "חומעה",
+      "c0": "14463",
+      "image": "/catalog/14463.jpg",
+      "slug": "14463",
+      "nameEn": "Rumex"
+    },
+    {
+      "name": "חונדרו",
+      "c0": "14493",
+      "image": "/catalog/14493.jpg",
+      "slug": "14493",
+      "nameEn": "חונדרו"
+    },
+    {
+      "name": "חיטה יבשה",
+      "c0": "14505",
+      "image": "/catalog/14505.jpg",
+      "slug": "14505",
+      "nameEn": "Wheat"
+    },
+    {
+      "name": "חיטה ירוקה",
+      "c0": "14448",
+      "image": "/catalog/14448.JPG",
+      "slug": "14448",
+      "nameEn": "חיטה ירוקה"
+    },
+    {
+      "name": "חלבלוב",
+      "c0": "14529",
+      "image": "/catalog/14529.JPG",
+      "slug": "14529",
+      "nameEn": "חלבלוב"
+    },
+    {
+      "name": "חמניות",
+      "c0": "14539",
+      "image": "/catalog/14539.jpg",
+      "slug": "14539",
+      "nameEn": "חמניות"
+    },
+    {
+      "name": "חצב",
+      "c0": "14521",
+      "image": "/catalog/14521.jpg",
+      "slug": "14521",
+      "nameEn": "חצב"
+    },
+    {
+      "name": "חציר",
+      "c0": "14490",
+      "image": "/catalog/14490.jpg",
+      "slug": "14490",
+      "nameEn": "חציר"
+    },
+    {
+      "name": "חרדלית",
+      "c0": "14498",
+      "image": "/catalog/14498.jpg",
+      "slug": "14498",
+      "nameEn": "חרדלית"
+    },
+    {
+      "name": "חרצית מלאה",
+      "c0": "14525",
+      "image": "/catalog/14525.JPG",
+      "slug": "14525",
+      "nameEn": "חרצית מלאה"
+    },
+    {
+      "name": "חרצית מרגרטה",
+      "c0": "14625",
+      "image": "/catalog/14625.JPG",
+      "slug": "14625",
+      "nameEn": "חרצית מרגרטה"
+    },
+    {
+      "name": "חרצית סנטיני",
+      "c0": "16090",
+      "image": "/catalog/16090.JPG",
+      "slug": "16090",
+      "nameEn": "חרצית סנטיני"
+    },
+    {
+      "name": "חרצית ספידר",
+      "c0": "14645",
+      "image": "/catalog/14645.jpg",
+      "slug": "14645",
+      "nameEn": "חרצית ספידר"
+    },
+    {
+      "name": "חרצית פונפון",
+      "c0": "14617",
+      "image": "/catalog/14617.jpg",
+      "slug": "14617",
+      "nameEn": "חרצית פונפון"
+    },
+    {
+      "name": "חרצית ראש",
+      "c0": "14586",
+      "image": "/catalog/14586.jpg",
+      "slug": "14586",
+      "nameEn": "חרצית ראש"
+    },
+    {
+      "name": "טגטס",
+      "c0": "14434",
+      "image": "/catalog/14434.JPG",
+      "slug": "14434",
+      "nameEn": "טגטס"
+    },
+    {
+      "name": "טוברוזה",
+      "c0": "14475",
+      "image": "/catalog/14475.jpg",
+      "slug": "14475",
+      "nameEn": "טוברוזה"
+    },
+    {
+      "name": "טילנדסיה",
+      "c0": "16168",
+      "image": "/catalog/16168.jpg",
+      "slug": "16168",
+      "nameEn": "טילנדסיה"
+    },
+    {
+      "name": "טילנדסיה",
+      "c0": "14532",
+      "image": "/catalog/14532.jpg",
+      "slug": "14532",
+      "nameEn": "טילנדסיה"
+    },
+    {
+      "name": "טילנדסיה אניטה",
+      "c0": "16167",
+      "image": "/catalog/16167.jpg",
+      "slug": "16167",
+      "nameEn": "טילנדסיה אניטה"
+    },
+    {
+      "name": "טרכליום",
+      "c0": "14510",
+      "image": "/catalog/14510.jpg",
+      "slug": "14510",
+      "nameEn": "טרכליום"
+    },
+    {
+      "name": "יורו",
+      "c0": "14479",
+      "image": "/catalog/14479.jpg",
+      "slug": "14479",
+      "nameEn": "יורו"
+    },
+    {
+      "name": "יקינטון",
+      "c0": "14561",
+      "image": "/catalog/14561.jpg",
+      "slug": "14561",
+      "nameEn": "יקינטון"
+    },
+    {
+      "name": "ירקה",
+      "c0": "14452",
+      "image": "/catalog/14452.jpg",
+      "slug": "14452",
+      "nameEn": "ירקה"
+    },
+    {
+      "name": "כוחיה",
+      "c0": "14468",
+      "image": "/catalog/14468.JPG",
+      "slug": "14468",
+      "nameEn": "כוחיה"
+    },
+    {
+      "name": "כותנה",
+      "c0": "14472",
+      "image": "/catalog/14472.jpg",
+      "slug": "14472",
+      "nameEn": "כותנה"
+    },
+    {
+      "name": "כיסופית המדבר",
+      "c0": "14515",
+      "image": "/catalog/14515.JPG",
+      "slug": "14515",
+      "nameEn": "כיסופית המדבר"
+    },
+    {
+      "name": "כלניות",
+      "c0": "14579",
+      "image": "/catalog/14579.jpg",
+      "slug": "14579",
+      "nameEn": "כלניות"
+    },
+    {
+      "name": "כף קנגרו",
+      "c0": "14460",
+      "image": "/catalog/14460.jpg",
+      "slug": "14460",
+      "nameEn": "כף קנגרו"
+    },
+    {
+      "name": "כרבולת",
+      "c0": "14544",
+      "image": "/catalog/14544.jpg",
+      "slug": "14544",
+      "nameEn": "כרבולת"
+    },
+    {
+      "name": "כרוב נוי",
+      "c0": "14621",
+      "image": "/catalog/14621.JPG",
+      "slug": "14621",
+      "nameEn": "כרוב נוי"
+    },
+    {
+      "name": "לאוקוקורין",
+      "c0": "14464",
+      "image": "/catalog/14464.JPG",
+      "slug": "14464",
+      "nameEn": "לאוקוקורין"
+    },
+    {
+      "name": "לאקי במבוק",
+      "c0": "14494",
+      "image": "/catalog/14494.jpg",
+      "slug": "14494",
+      "nameEn": "לאקי במבוק"
+    },
+    {
+      "name": "לוטוס",
+      "c0": "14506",
+      "image": "/catalog/14506.jpg",
+      "slug": "14506",
+      "nameEn": "לוטוס"
+    },
+    {
+      "name": "לונג לייף דלי",
+      "c0": "14377",
+      "image": "/catalog/14377.jpg",
+      "slug": "14377",
+      "nameEn": "לונג לייף דלי"
+    },
+    {
+      "name": "לונג לייף קרטון",
+      "c0": "14455",
+      "image": "/catalog/14455.jpg",
+      "slug": "14455",
+      "nameEn": "לונג לייף קרטון"
+    },
+    {
+      "name": "לוע ארי",
+      "c0": "14503",
+      "image": "/catalog/14503.jpg",
+      "slug": "14503",
+      "nameEn": "לוע ארי"
+    },
+    {
+      "name": "ליאטריס קלילפסיס",
+      "c0": "14449",
+      "image": "/catalog/14449.jpg",
+      "slug": "14449",
+      "nameEn": "ליאטריס קלילפסיס"
+    },
+    {
+      "name": "ליזאנטוס",
+      "c0": "14522",
+      "image": "/catalog/14522.jpg",
+      "slug": "14522",
+      "nameEn": "ליזאנטוס"
+    },
+    {
+      "name": "ליזיאנטוס בלות",
+      "c0": "14491",
+      "image": "/catalog/14491.JPG",
+      "slug": "14491",
+      "nameEn": "ליזיאנטוס בלות"
+    },
+    {
+      "name": "ליזיאנטוס קיטומים",
+      "c0": "14540",
+      "image": "/catalog/14540.jpg",
+      "slug": "14540",
+      "nameEn": "ליזיאנטוס קיטומים"
+    },
+    {
+      "name": "ליליה",
+      "c0": "14499",
+      "image": "/catalog/14499.jpg",
+      "slug": "14499",
+      "nameEn": "ליליה"
+    },
+    {
+      "name": "ליליה אוריינטלית/סטאר",
+      "c0": "14583",
+      "image": "/catalog/14583.jpg",
+      "slug": "14583",
+      "nameEn": "ליליה אוריינטלית/סטאר"
+    },
+    {
+      "name": "לימוניום אמילי",
+      "c0": "14535",
+      "image": "/catalog/14535.jpg",
+      "slug": "14535",
+      "nameEn": "לימוניום אמילי"
+    },
+    {
+      "name": "מארז דבק חם",
+      "c0": "16131",
+      "image": "/catalog/16131.jpg",
+      "slug": "16131",
+      "nameEn": "מארז דבק חם"
+    },
+    {
+      "name": "מארז חוטי ברזל מגולוונים",
+      "c0": "16129",
+      "image": "/catalog/16129.jpg",
+      "slug": "16129",
+      "nameEn": "מארז חוטי ברזל מגולוונים"
+    },
+    {
+      "name": "מארז סיכות לגלגלי אבל",
+      "c0": "16127",
+      "image": "/catalog/16127.jpg",
+      "slug": "16127",
+      "nameEn": "מארז סיכות לגלגלי אבל"
+    },
+    {
+      "name": "מארז סיכות לדש חליפה",
+      "c0": "16125",
+      "image": "/catalog/16125.jpg",
+      "slug": "16125",
+      "nameEn": "מארז סיכות לדש חליפה"
+    },
+    {
+      "name": "מארז פנינים ויהלומים",
+      "c0": "16123",
+      "image": "/catalog/16123.jpg",
+      "slug": "16123",
+      "nameEn": "מארז פנינים ויהלומים"
+    },
+    {
+      "name": "מבריק עלים גדול/קטן",
+      "c0": "14388",
+      "image": "/catalog/14388.jpg",
+      "slug": "14388",
+      "nameEn": "מבריק עלים גדול/קטן"
+    },
+    {
+      "name": "מובידיק / תפוח סדום",
+      "c0": "14533",
+      "image": "/catalog/14533.jpg",
+      "slug": "14533",
+      "nameEn": "Gomphocarpus Moby Dick"
+    },
+    {
+      "name": "מונברטיה",
+      "c0": "14511",
+      "image": "/catalog/14511.JPG",
+      "slug": "14511",
+      "nameEn": "montbretia"
+    },
+    {
+      "name": "מונסטרה",
+      "c0": "14480",
+      "image": "/catalog/14480.jpg",
+      "slug": "14480",
+      "nameEn": "Monstera"
+    },
+    {
+      "name": "מוראה",
+      "c0": "14453",
+      "image": "/catalog/14453.jpg",
+      "slug": "14453",
+      "nameEn": "MURRAYA"
+    },
+    {
+      "name": "מורן",
+      "c0": "14469",
+      "image": "/catalog/14469.JPG",
+      "slug": "14469",
+      "nameEn": "Viburnum"
+    },
+    {
+      "name": "מזמרה",
+      "c0": "16121",
+      "image": "/catalog/16121.jpg",
+      "slug": "16121",
+      "nameEn": "secateurs"
+    },
+    {
+      "name": "מיקרופון לזר כלה",
+      "c0": "14703",
+      "image": "/catalog/14703.jpg",
+      "slug": "14703",
+      "nameEn": "מיקרופון לזר כלה"
+    },
+    {
+      "name": "מלליקה",
+      "c0": "14516",
+      "image": "/catalog/14516.JPG",
+      "slug": "14516",
+      "nameEn": "מלליקה"
+    },
+    {
+      "name": "מנתור",
+      "c0": "14580",
+      "image": "/catalog/14580.jpg",
+      "slug": "14580",
+      "nameEn": "Matthiola"
+    },
+    {
+      "name": "מספריים",
+      "c0": "16119",
+      "image": "/catalog/16119.jpg",
+      "slug": "16119",
+      "nameEn": "scissors"
+    },
+    {
+      "name": "מעמד לגלגלי אבל",
+      "c0": "16115",
+      "image": "/catalog/16115.jpg",
+      "slug": "16115",
+      "nameEn": "מעמד לגלגלי אבל"
+    },
+    {
+      "name": "מרבדי עשב חיטה",
+      "c0": "14502",
+      "image": "/catalog/14502.jpg",
+      "slug": "14502",
+      "nameEn": "Wheatgrass"
+    },
+    {
+      "name": "מרסיניה",
+      "c0": "14465",
+      "image": "/catalog/14465.jpg",
+      "slug": "14465",
+      "nameEn": "מרסיניה"
+    },
+    {
+      "name": "מתקן לחוטי ברזל",
+      "c0": "16117",
+      "image": "/catalog/16117.jpg",
+      "slug": "16117",
+      "nameEn": "Wire holder"
+    },
+    {
+      "name": "נוריות",
+      "c0": "14495",
+      "image": "/catalog/14495.jpg",
+      "slug": "14495",
+      "nameEn": "Ranunculus"
+    },
+    {
+      "name": "ניגלה",
+      "c0": "14507",
+      "image": "/catalog/14507.jpg",
+      "slug": "14507",
+      "nameEn": "Nigella"
+    },
+    {
+      "name": "נייר אריזה",
+      "c0": "14705",
+      "image": "/catalog/14705.jpg",
+      "slug": "14705",
+      "nameEn": "wrapping paper"
+    },
+    {
+      "name": "נץ חלב דוביום",
+      "c0": "14450",
+      "image": "/catalog/14450.JPG",
+      "slug": "14450",
+      "nameEn": "Ornithogalum dubium"
+    },
+    {
+      "name": "נץ חלב טרוזיאזיס",
+      "c0": "14606",
+      "image": "/catalog/14606.jpg",
+      "slug": "14606",
+      "nameEn": "Ornithogalum thyrsoides"
+    },
+    {
+      "name": "נץ חלב לבן",
+      "c0": "14504",
+      "image": "/catalog/14504.jpg",
+      "slug": "14504",
+      "nameEn": "Ornithogalum saundersiae"
+    },
+    {
+      "name": "נץ חלב סנדרסי",
+      "c0": "14577",
+      "image": "/catalog/14577.JPG",
+      "slug": "14577",
+      "nameEn": "Ornithogalum"
+    },
+    {
+      "name": "נץ חלב ערבי",
+      "c0": "14614",
+      "image": "/catalog/14614.jpg",
+      "slug": "14614",
+      "nameEn": "Ornithogalum arabicum"
+    },
+    {
+      "name": "נרינה  ייבוא",
+      "c0": "14531",
+      "image": "/catalog/14531.jpg",
+      "slug": "14531",
+      "nameEn": "Nerine"
+    },
+    {
+      "name": "נרקיס",
+      "c0": "14588",
+      "image": "/catalog/14588.jpg",
+      "slug": "14588",
+      "nameEn": "Narcissus"
+    },
+    {
+      "name": "עשב חיטה בעציץ",
+      "c0": "14381",
+      "image": "/catalog/14381.jpg",
+      "slug": "14381",
+      "nameEn": "Wheatgrass"
+    },
+    {
+      "name": "כדור ספוג",
+      "c0": "14404",
+      "image": "/catalog/14404.jpg",
+      "slug": "14404",
+      "nameEn": "כדור ספוג"
+    },
+    {
+      "name": "סגולית",
+      "c0": "14541",
+      "image": "/catalog/14541.jpg",
+      "slug": "14541",
+      "nameEn": "Legousia"
+    },
+    {
+      "name": "סהרון",
+      "c0": "14523",
+      "image": "/catalog/14523.jpg",
+      "slug": "14523",
+      "nameEn": "Cocculus laurifolius"
+    },
+    {
+      "name": "סולידגו",
+      "c0": "14492",
+      "image": "/catalog/14492.jpg",
+      "slug": "14492",
+      "nameEn": "Solidago"
+    },
+    {
+      "name": "סחלב אוניצידיום",
+      "c0": "14454",
+      "image": "/catalog/14454.jpg",
+      "slug": "14454",
+      "nameEn": "Oncidium"
+    },
+    {
+      "name": "סחלב דנדרוביום",
+      "c0": "16164",
+      "image": "/catalog/16164.JPG",
+      "slug": "16164",
+      "nameEn": "סחלב דנדרוביום"
+    },
+    {
+      "name": "סחלב וונדה",
+      "c0": "14527",
+      "image": "/catalog/14527.jpg",
+      "slug": "14527",
+      "nameEn": "Vanda"
+    },
+    {
+      "name": "סחלב פילנופסיס",
+      "c0": "16165",
+      "image": "/catalog/16165.jpg",
+      "slug": "16165",
+      "nameEn": "Phalaenopsis"
+    },
+    {
+      "name": "סחלב צימבידיום",
+      "c0": "14534",
+      "image": "/catalog/14534.jpg",
+      "slug": "14534",
+      "nameEn": "Cymbidium"
+    },
+    {
+      "name": "סיגרים סוף",
+      "c0": "14417",
+      "image": "/catalog/14417.jpg",
+      "slug": "14417",
+      "nameEn": "Typha"
+    },
+    {
+      "name": "סייפן",
+      "c0": "14562",
+      "image": "/catalog/14562.jpg",
+      "slug": "14562",
+      "nameEn": "Gladiolus"
+    },
+    {
+      "name": "סיכות לשזירה",
+      "c0": "14708",
+      "image": "/catalog/14708.jpg",
+      "slug": "14708",
+      "nameEn": "pins"
+    },
+    {
+      "name": "סכין לשזירה",
+      "c0": "14706",
+      "image": "/catalog/14706.jpg",
+      "slug": "14706",
+      "nameEn": "סכין לשזירה"
+    },
+    {
+      "name": "סליל חוט ברזל עובי0.5,0.3",
+      "c0": "16113",
+      "image": "/catalog/16113.jpg",
+      "slug": "16113",
+      "nameEn": "Coil wire"
+    },
+    {
+      "name": "סנדרסוניה",
+      "c0": "14633",
+      "image": "/catalog/14633.jpg",
+      "slug": "14633",
+      "nameEn": "Sandersonia"
+    },
+    {
+      "name": "סנובול",
+      "c0": "14607",
+      "image": "/catalog/14607.jpg",
+      "slug": "14607",
+      "nameEn": "סנובול"
+    },
+    {
+      "name": "סנסיווריה",
+      "c0": "14638",
+      "image": "/catalog/14638.jpg",
+      "slug": "14638",
+      "nameEn": "סנסיווריה"
+    },
+    {
+      "name": "סנסיווריה צבעונית",
+      "c0": "16161",
+      "image": "/catalog/16161.jpg",
+      "slug": "16161",
+      "nameEn": "סנסיווריה צבעונית"
+    },
+    {
+      "name": "ספארי",
+      "c0": "14634",
+      "image": "/catalog/14634.jpg",
+      "slug": "14634",
+      "nameEn": "ספארי"
+    },
+    {
+      "name": "ספארי אינקה גולד",
+      "c0": "14573",
+      "image": "/catalog/14573.jpg",
+      "slug": "14573",
+      "nameEn": "ספארי אינקה גולד"
+    },
+    {
+      "name": "ספארי מפוצל",
+      "c0": "14554",
+      "image": "/catalog/14554.jpg",
+      "slug": "14554",
+      "nameEn": "ספארי מפוצל"
+    },
+    {
+      "name": "ספוג לב",
+      "c0": "14704",
+      "image": "/catalog/14704.jpg",
+      "slug": "14704",
+      "nameEn": "ספוג לב"
+    },
+    {
+      "name": "ספטיפיליום",
+      "c0": "14558",
+      "image": "/catalog/14558.jpg",
+      "slug": "14558",
+      "nameEn": "ספטיפיליום"
+    },
+    {
+      "name": "ספריי צבע לפרחים",
+      "c0": "14416",
+      "image": "/catalog/14416.jpg",
+      "slug": "14416",
+      "nameEn": "ספריי צבע לפרחים"
+    },
+    {
+      "name": "סרט 19מ\"מ",
+      "c0": "16109",
+      "image": "/catalog/16109.jpg",
+      "slug": "16109",
+      "nameEn": "סרט 19מ\"מ"
+    },
+    {
+      "name": "סרט 30מ\"מ",
+      "c0": "16107",
+      "image": "/catalog/16107.jpg",
+      "slug": "16107",
+      "nameEn": "סרט 30מ\"מ"
+    },
+    {
+      "name": "סרט 48מ\"מ",
+      "c0": "16105",
+      "image": "/catalog/16105.jpg",
+      "slug": "16105",
+      "nameEn": "סרט 48מ\"מ"
+    },
+    {
+      "name": "סרט 5מ\"מ לקשירה",
+      "c0": "16111",
+      "image": "/catalog/16111.jpg",
+      "slug": "16111",
+      "nameEn": "סרט 5מ\"מ לקשירה"
+    },
+    {
+      "name": "סרט מטאלי",
+      "c0": "16099",
+      "image": "/catalog/16099.jpg",
+      "slug": "16099",
+      "nameEn": "סרט מטאלי"
+    },
+    {
+      "name": "סרט שחור לגלגל אבל 50מ\"מ",
+      "c0": "16103",
+      "image": "/catalog/16103.jpg",
+      "slug": "16103",
+      "nameEn": "סרט שחור לגלגל אבל 50מ\"מ"
+    },
+    {
+      "name": "סרט שחור לגלגל אבל 70מ\"מ",
+      "c0": "16101",
+      "image": "/catalog/16101.jpg",
+      "slug": "16101",
+      "nameEn": "סרט שחור לגלגל אבל 70מ\"מ"
+    },
+    {
+      "name": "עדעד",
+      "c0": "14496",
+      "image": "/catalog/14496.jpg",
+      "slug": "14496",
+      "nameEn": "עדעד"
+    },
+    {
+      "name": "עופרים / גרינבל",
+      "c0": "14508",
+      "image": "/catalog/14508.jpg",
+      "slug": "14508",
+      "nameEn": "עופרים / גרינבל"
+    },
+    {
+      "name": "עלי אנטוריום",
+      "c0": "14405",
+      "image": "/catalog/14405.jpg",
+      "slug": "14405",
+      "nameEn": "עלי אנטוריום"
+    },
+    {
+      "name": "עלי גן עדן",
+      "c0": "14555",
+      "image": "/catalog/14555.JPG",
+      "slug": "14555",
+      "nameEn": "עלי גן עדן"
+    },
+    {
+      "name": "ערבה / סאליקס",
+      "c0": "14596",
+      "image": "/catalog/14596.jpg",
+      "slug": "14596",
+      "nameEn": "ערבה / סאליקס"
+    },
+    {
+      "name": "ערער/טויה (ברוש לימוני)",
+      "c0": "14546",
+      "image": "/catalog/14546.JPG",
+      "slug": "14546",
+      "nameEn": "ערער/טויה (ברוש לימוני)"
+    },
+    {
+      "name": "פורמיום",
+      "c0": "14626",
+      "image": "/catalog/14626.jpg",
+      "slug": "14626",
+      "nameEn": "פורמיום"
+    },
+    {
+      "name": "פיוני (אדמונית)",
+      "c0": "14630",
+      "image": "/catalog/14630.jpg",
+      "slug": "14630",
+      "nameEn": "פיוני (אדמונית)"
+    },
+    {
+      "name": "פיטוספורום",
+      "c0": "14589",
+      "image": "/catalog/14589.jpg",
+      "slug": "14589",
+      "nameEn": "פיטוספורום"
+    },
+    {
+      "name": "פיטוספורום איטלקי",
+      "c0": "14618",
+      "image": "/catalog/14618.jpg",
+      "slug": "14618",
+      "nameEn": "פיטוספורום איטלקי"
+    },
+    {
+      "name": "פיסוסטכיה",
+      "c0": "14549",
+      "image": "/catalog/14549.jpg",
+      "slug": "14549",
+      "nameEn": "פיסוסטכיה"
+    },
+    {
+      "name": "פיסליס/שלפח",
+      "c0": "14592",
+      "image": "/catalog/14592.jpg",
+      "slug": "14592",
+      "nameEn": "פיסליס/שלפח"
+    },
+    {
+      "name": "פלוקס",
+      "c0": "14537",
+      "image": "/catalog/14537.jpg",
+      "slug": "14537",
+      "nameEn": "פלוקס"
+    },
+    {
+      "name": "פלורל טייפ",
+      "c0": "16087",
+      "image": "/catalog/16087.jpg",
+      "slug": "16087",
+      "nameEn": "פלורל טייפ"
+    },
+    {
+      "name": "פלפל נוי",
+      "c0": "14574",
+      "image": "/catalog/14574.jpg",
+      "slug": "14574",
+      "nameEn": "פלפל נוי"
+    },
+    {
+      "name": "פמפס",
+      "c0": "14603",
+      "image": "/catalog/14603.jpg",
+      "slug": "14603",
+      "nameEn": "פמפס"
+    },
+    {
+      "name": "פפרומיה  פאלרמו",
+      "c0": "16193",
+      "image": "/catalog/16193.jpg",
+      "slug": "16193",
+      "nameEn": "פפרומיה  פאלרמו"
+    },
+    {
+      "name": "פפרומיה אדומה",
+      "c0": "16155",
+      "image": "/catalog/16155.jpg",
+      "slug": "16155",
+      "nameEn": "פפרומיה אדומה"
+    },
+    {
+      "name": "פפרומיה מלון\\אבטיחית",
+      "c0": "16156",
+      "image": "/catalog/16156.jpg",
+      "slug": "16156",
+      "nameEn": "פפרומיה מלון\\אבטיחית"
+    },
+    {
+      "name": "פפרומיה רוסו",
+      "c0": "16157",
+      "image": "/catalog/16157.jpg",
+      "slug": "16157",
+      "nameEn": "פפרומיה רוסו"
+    },
+    {
+      "name": "פרג",
+      "c0": "14611",
+      "image": "/catalog/14611.jpg",
+      "slug": "14611",
+      "nameEn": "פרג"
+    },
+    {
+      "name": "פרוטאה",
+      "c0": "14570",
+      "image": "/catalog/14570.jpg",
+      "slug": "14570",
+      "nameEn": "פרוטאה"
+    },
+    {
+      "name": "פרזיות",
+      "c0": "14550",
+      "image": "/catalog/14550.jpg",
+      "slug": "14550",
+      "nameEn": "פרזיות"
+    },
+    {
+      "name": "פרח שעווה",
+      "c0": "14608",
+      "image": "/catalog/14608.jpg",
+      "slug": "14608",
+      "nameEn": "פרח שעווה"
+    },
+    {
+      "name": "גליל צלופן",
+      "c0": "14428",
+      "image": "/catalog/14428.jpg",
+      "slug": "14428",
+      "nameEn": "גליל צלופן"
+    },
+    {
+      "name": "צבע הגמעה",
+      "c0": "14438",
+      "image": "/catalog/14438.jpg",
+      "slug": "14438",
+      "nameEn": "צבע הגמעה"
+    },
+    {
+      "name": "צבעוני  סופר פארוט פריזלד",
+      "c0": "15245",
+      "image": "/catalog/15245.jpg",
+      "slug": "15245",
+      "nameEn": "צבעוני  סופר פארוט פריזלד"
+    },
+    {
+      "name": "צבעוני  קרלי סו פריזלד",
+      "c0": "15241",
+      "image": "/catalog/15241.jpg",
+      "slug": "15241",
+      "nameEn": "צבעוני  קרלי סו פריזלד"
+    },
+    {
+      "name": "צבעוני אד-רם",
+      "c0": "15218",
+      "image": "/catalog/15218.jpg",
+      "slug": "15218",
+      "nameEn": "צבעוני אד-רם"
+    },
+    {
+      "name": "צבעוני אוליאולס",
+      "c0": "15193",
+      "image": "/catalog/15193.jpg",
+      "slug": "15193",
+      "nameEn": "צבעוני אוליאולס"
+    },
+    {
+      "name": "צבעוני אורלינס",
+      "c0": "15198",
+      "image": "/catalog/15198.jpg",
+      "slug": "15198",
+      "nameEn": "Tulipa orleans"
+    },
+    {
+      "name": "צבעוני איל דה פראנס",
+      "c0": "15214",
+      "image": "/catalog/15214.jpg",
+      "slug": "15214",
+      "nameEn": "Tulipa ile de france"
+    },
+    {
+      "name": "צבעוני בלאק ג`ק",
+      "c0": "15232",
+      "image": "/catalog/15232.jpg",
+      "slug": "15232",
+      "nameEn": "צבעוני בלאק ג`ק"
+    },
+    {
+      "name": "צבעוני ברצלונה",
+      "c0": "15220",
+      "image": "/catalog/15220.jpg",
+      "slug": "15220",
+      "nameEn": "Tulipa barcelona"
+    },
+    {
+      "name": "צבעוני דבנפורט",
+      "c0": "15208",
+      "image": "/catalog/15208.JPG",
+      "slug": "15208",
+      "nameEn": "Tulipa davenport"
+    },
+    {
+      "name": "צבעוני דיינסטי",
+      "c0": "15236",
+      "image": "/catalog/15236.JPG",
+      "slug": "15236",
+      "nameEn": "tulipa dynasty"
+    },
+    {
+      "name": "צבעוני דיסטנשיין",
+      "c0": "15210",
+      "image": "/catalog/15210.JPG",
+      "slug": "15210",
+      "nameEn": "Tulipat destination"
+    },
+    {
+      "name": "צבעוני וורלד'ס פיווריט",
+      "c0": "15226",
+      "image": "/catalog/15226.jpg",
+      "slug": "15226",
+      "nameEn": "Tulipa world's favourite"
+    },
+    {
+      "name": "צבעוני יילו פלייט",
+      "c0": "15228",
+      "image": "/catalog/15228.jpg",
+      "slug": "15228",
+      "nameEn": "צבעוני יילו פלייט"
+    },
+    {
+      "name": "צבעוני להליבלה",
+      "c0": "15216",
+      "image": "/catalog/15216.jpg",
+      "slug": "15216",
+      "nameEn": "Tulipa lalibela"
+    },
+    {
+      "name": "צבעוני מאסקוט-פריזלד",
+      "c0": "15243",
+      "image": "/catalog/15243.jpg",
+      "slug": "15243",
+      "nameEn": "tulipa mascotte frizzled"
+    },
+    {
+      "name": "צבעוני מאצ-מייקר",
+      "c0": "15196",
+      "image": "/catalog/15196.jpg",
+      "slug": "15196",
+      "nameEn": "Tulipa matchmaker"
+    },
+    {
+      "name": "צבעוני ניגריטה",
+      "c0": "15194",
+      "image": "/catalog/15194.JPG",
+      "slug": "15194",
+      "nameEn": "Tulipa negrita"
+    },
+    {
+      "name": "צבעוני סאיגון",
+      "c0": "15234",
+      "image": "/catalog/15234.jpg",
+      "slug": "15234",
+      "nameEn": "צבעוני סאיגון"
+    },
+    {
+      "name": "צבעוני סופר פרוט",
+      "c0": "15224",
+      "image": "/catalog/15224.jpg",
+      "slug": "15224",
+      "nameEn": "Tulipa super parrot"
+    },
+    {
+      "name": "צבעוני סטרונג גולד",
+      "c0": "15197",
+      "image": "/catalog/15197.jpg",
+      "slug": "15197",
+      "nameEn": "Tulipa strong gold"
+    },
+    {
+      "name": "צבעוני סטרונג לאב",
+      "c0": "15195",
+      "image": "/catalog/15195.jpg",
+      "slug": "15195",
+      "nameEn": "Tulipa strong love"
+    },
+    {
+      "name": "צבעוני פופ-סטאר",
+      "c0": "14639",
+      "image": "/catalog/14639.JPG",
+      "slug": "14639",
+      "nameEn": "Tulipa pop star"
+    },
+    {
+      "name": "צבעוני פרארי",
+      "c0": "15212",
+      "image": "/catalog/15212.JPG",
+      "slug": "15212",
+      "nameEn": "Tulipa ferrari"
+    },
+    {
+      "name": "צבעוני פריים-טיים",
+      "c0": "15206",
+      "image": "/catalog/15206.JPG",
+      "slug": "15206",
+      "nameEn": "Tulipa prim-time"
+    },
+    {
+      "name": "צבעוני קיס נליס",
+      "c0": "15238",
+      "image": "/catalog/15238.JPG",
+      "slug": "15238",
+      "nameEn": "tulipa kees nellis"
+    },
+    {
+      "name": "צבעוני קליר ווטר",
+      "c0": "15222",
+      "image": "/catalog/15222.JPG",
+      "slug": "15222",
+      "nameEn": "Tulipa clearwater"
+    },
+    {
+      "name": "צבעוני רד גולד",
+      "c0": "15199",
+      "image": "/catalog/15199.JPG",
+      "slug": "15199",
+      "nameEn": "Tulipa red  gold"
+    },
+    {
+      "name": "צבעוני רויאל וירגין",
+      "c0": "15230",
+      "image": "/catalog/15230.jpg",
+      "slug": "15230",
+      "nameEn": "צבעוני רויאל וירגין"
+    },
+    {
+      "name": "ציניה",
+      "c0": "14629",
+      "image": "/catalog/14629.jpg",
+      "slug": "14629",
+      "nameEn": "Zinnia"
+    },
+    {
+      "name": "ציפורן חתול/קלנדולה",
+      "c0": "14571",
+      "image": "/catalog/14571.jpg",
+      "slug": "14571",
+      "nameEn": "Calendula"
+    },
+    {
+      "name": "ציקס",
+      "c0": "14597",
+      "image": "/catalog/14597.jpg",
+      "slug": "14597",
+      "nameEn": "Cycas"
+    },
+    {
+      "name": "צלוזיה",
+      "c0": "14547",
+      "image": "/catalog/14547.jpg",
+      "slug": "14547",
+      "nameEn": "Celosia"
+    },
+    {
+      "name": "צלחות / תחתיות",
+      "c0": "14482",
+      "image": "/catalog/14482.jpg",
+      "slug": "14482",
+      "nameEn": "plate\\coaster"
+    },
+    {
+      "name": "צמח אוויר",
+      "c0": "16172",
+      "image": "/catalog/16172.jpg",
+      "slug": "16172",
+      "nameEn": "Tillandsia"
+    },
+    {
+      "name": "צסטרום",
+      "c0": "14627",
+      "image": "/catalog/14627.jpg",
+      "slug": "14627",
+      "nameEn": "צסטרום"
+    },
+    {
+      "name": "צפור גן עדן",
+      "c0": "14635",
+      "image": "/catalog/14635.jpg",
+      "slug": "14635",
+      "nameEn": "Strelitzia"
+    },
+    {
+      "name": "צפורן אמריקאית",
+      "c0": "14593",
+      "image": "/catalog/14593.jpg",
+      "slug": "14593",
+      "nameEn": "Dianthus"
+    },
+    {
+      "name": "צפורן ברבטוס",
+      "c0": "14412",
+      "image": "/catalog/14412.JPG",
+      "slug": "14412",
+      "nameEn": "Dianthus barbatus"
+    },
+    {
+      "name": "צפורן ג'יפסי פונפון ירוק/ גרינבול",
+      "c0": "14600",
+      "image": "/catalog/14600.jpg",
+      "slug": "14600",
+      "nameEn": "צפורן ג'יפסי פונפון ירוק/ גרינבול"
+    },
+    {
+      "name": "צפורן ננסית",
+      "c0": "14559",
+      "image": "/catalog/14559.jpg",
+      "slug": "14559",
+      "nameEn": "Dianthus tros"
+    },
+    {
+      "name": "קוסמוס",
+      "c0": "14557",
+      "image": "/catalog/14557.jpg",
+      "slug": "14557",
+      "nameEn": "Cosmos"
+    },
+    {
+      "name": "קורקומה",
+      "c0": "14619",
+      "image": "/catalog/14619.jpg",
+      "slug": "14619",
+      "nameEn": "Curcuma"
+    },
+    {
+      "name": "קיסוס",
+      "c0": "14590",
+      "image": "/catalog/14590.jpg",
+      "slug": "14590",
+      "nameEn": "Hedera"
+    },
+    {
+      "name": "קיסוסית",
+      "c0": "14623",
+      "image": "/catalog/14623.JPG",
+      "slug": "14623",
+      "nameEn": "Hedra"
+    },
+    {
+      "name": "קיפודן",
+      "c0": "14643",
+      "image": "/catalog/14643.jpg",
+      "slug": "14643",
+      "nameEn": "קיפודן"
+    },
+    {
+      "name": "קלה",
+      "c0": "14575",
+      "image": "/catalog/14575.jpg",
+      "slug": "14575",
+      "nameEn": "קלה"
+    },
+    {
+      "name": "קליקרפה",
+      "c0": "14612",
+      "image": "/catalog/14612.jpg",
+      "slug": "14612",
+      "nameEn": "קליקרפה"
+    },
+    {
+      "name": "קמפנולה",
+      "c0": "14551",
+      "image": "/catalog/14551.jpg",
+      "slug": "14551",
+      "nameEn": "קמפנולה"
+    },
+    {
+      "name": "קסנדו",
+      "c0": "14568",
+      "image": "/catalog/14568.JPG",
+      "slug": "14568",
+      "nameEn": "קסנדו"
+    },
+    {
+      "name": "קרוטון",
+      "c0": "14564",
+      "image": "/catalog/14564.JPG",
+      "slug": "14564",
+      "nameEn": "קרוטון"
+    },
+    {
+      "name": "קרטון ספוגים",
+      "c0": "14444",
+      "image": "/catalog/14444.jpg",
+      "slug": "14444",
+      "nameEn": "קרטון ספוגים"
+    },
+    {
+      "name": "קרטון ספוגים ג'מבו",
+      "c0": "14399",
+      "image": "/catalog/14399.jpg",
+      "slug": "14399",
+      "nameEn": "קרטון ספוגים ג'מבו"
+    },
+    {
+      "name": "קרטמוס",
+      "c0": "14609",
+      "image": "/catalog/14609.jpg",
+      "slug": "14609",
+      "nameEn": "קרטמוס"
+    },
+    {
+      "name": "קרספידיה",
+      "c0": "14640",
+      "image": "/catalog/14640.jpg",
+      "slug": "14640",
+      "nameEn": "קרספידיה"
+    },
+    {
+      "name": "רובליני",
+      "c0": "14636",
+      "image": "/catalog/14636.jpg",
+      "slug": "14636",
+      "nameEn": "רובליני"
+    },
+    {
+      "name": "רובליני - פירות",
+      "c0": "14556",
+      "image": "/catalog/14556.jpg",
+      "slug": "14556",
+      "nameEn": "רובליני - פירות"
+    },
+    {
+      "name": "רוסקוס",
+      "c0": "16187",
+      "image": "/catalog/16187.jpg",
+      "slug": "16187",
+      "nameEn": "רוסקוס"
+    },
+    {
+      "name": "רוסקוס מסולסל",
+      "c0": "14560",
+      "image": "/catalog/14560.jpg",
+      "slug": "14560",
+      "nameEn": "רוסקוס מסולסל"
+    },
+    {
+      "name": "רותם ירוק",
+      "c0": "14601",
+      "image": "/catalog/14601.jpg",
+      "slug": "14601",
+      "nameEn": "רותם ירוק"
+    },
+    {
+      "name": "רותם פורח",
+      "c0": "14413",
+      "image": "/catalog/14413.jpg",
+      "slug": "14413",
+      "nameEn": "רותם פורח"
+    },
+    {
+      "name": "ריחן/בזיליקום",
+      "c0": "14390",
+      "image": "/catalog/14390.JPG",
+      "slug": "14390",
+      "nameEn": "ריחן/בזיליקום"
+    },
+    {
+      "name": "רימון נוי",
+      "c0": "14598",
+      "image": "/catalog/14598.jpg",
+      "slug": "14598",
+      "nameEn": "רימון נוי"
+    },
+    {
+      "name": "רשת לול אלומיניום צבע מטאלי",
+      "c0": "16095",
+      "image": "/catalog/16095.jpg",
+      "slug": "16095",
+      "nameEn": "רשת לול אלומיניום צבע מטאלי"
+    },
+    {
+      "name": "רשת לזרי פרחים",
+      "c0": "14407",
+      "image": "/catalog/14407.jpg",
+      "slug": "14407",
+      "nameEn": "רשת לזרי פרחים"
+    },
+    {
+      "name": "רשת לספוג בודד",
+      "c0": "16093",
+      "image": "/catalog/16093.jpg",
+      "slug": "16093",
+      "nameEn": "רשת לספוג בודד"
+    },
+    {
+      "name": "שבטבט",
+      "c0": "14548",
+      "image": "/catalog/14548.JPG",
+      "slug": "14548",
+      "nameEn": "שבטבט"
+    },
+    {
+      "name": "שום",
+      "c0": "14628",
+      "image": "/catalog/14628.jpg",
+      "slug": "14628",
+      "nameEn": "שום"
+    },
+    {
+      "name": "שושן w.h",
+      "c0": "14632",
+      "image": "/catalog/14632.jpg",
+      "slug": "14632",
+      "nameEn": "שושן w.h"
+    },
+    {
+      "name": "שושן יפני 1 פעמון",
+      "c0": "14620",
+      "image": "/catalog/14620.JPG",
+      "slug": "14620",
+      "nameEn": "שושן יפני 1 פעמון"
+    },
+    {
+      "name": "שזיף (פיסרדי)",
+      "c0": "14591",
+      "image": "/catalog/14591.jpg",
+      "slug": "14591",
+      "nameEn": "שזיף (פיסרדי)"
+    },
+    {
+      "name": "שיטה פורחת (מימוזה)",
+      "c0": "14624",
+      "image": "/catalog/14624.jpg",
+      "slug": "14624",
+      "nameEn": "שיטה פורחת (מימוזה)"
+    },
+    {
+      "name": "שמרופס",
+      "c0": "14644",
+      "image": "/catalog/14644.jpg",
+      "slug": "14644",
+      "nameEn": "שמרופס"
+    },
+    {
+      "name": "שערות מלאכים",
+      "c0": "16091",
+      "image": "/catalog/16091.jpg",
+      "slug": "16091",
+      "nameEn": "שערות מלאכים"
+    },
+    {
+      "name": "שקדיה",
+      "c0": "14700",
+      "image": "/catalog/14700.jpg",
+      "slug": "14700",
+      "nameEn": "שקדיה"
+    },
+    {
+      "name": "שרך אפור",
+      "c0": "14605",
+      "image": "/catalog/14605.jpg",
+      "slug": "14605",
+      "nameEn": "שרך אפור"
+    },
+    {
+      "name": "שרך סירטוניום",
+      "c0": "14616",
+      "image": "/catalog/14616.jpg",
+      "slug": "14616",
+      "nameEn": "שרך סירטוניום"
+    },
+    {
+      "name": "שרך עלה העור",
+      "c0": "14572",
+      "image": "/catalog/14572.jpg",
+      "slug": "14572",
+      "nameEn": "שרך עלה העור"
+    },
+    {
+      "name": "שרך שרון",
+      "c0": "14613",
+      "image": "/catalog/14613.jpg",
+      "slug": "14613",
+      "nameEn": "שרך שרון"
+    },
+    {
+      "name": "תגית כדורית",
+      "c0": "14552",
+      "image": "/catalog/14552.jpg",
+      "slug": "14552",
+      "nameEn": "תגית כדורית"
+    },
+    {
+      "name": "תגית פורחת",
+      "c0": "14569",
+      "image": "/catalog/14569.jpg",
+      "slug": "14569",
+      "nameEn": "תגית פורחת"
+    },
+    {
+      "name": "תירס נוי",
+      "c0": "14565",
+      "image": "/catalog/14565.jpg",
+      "slug": "14565",
+      "nameEn": "תירס נוי"
+    },
+    {
+      "name": "תפוח נוי",
+      "c0": "14641",
+      "image": "/catalog/14641.jpg",
+      "slug": "14641",
+      "nameEn": "תפוח נוי"
+    }
+  ],
+  "fetchedAt": "2026-02-22T16:04:36.022Z",
+  "updatedAt": "2026-02-22T16:21:20.962Z"
+}
